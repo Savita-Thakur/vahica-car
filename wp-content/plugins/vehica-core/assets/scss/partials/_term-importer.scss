@@ -1,0 +1,30 @@
+.vehica-term-importer {
+  display: flex;
+  overflow-x: auto;
+  margin-bottom: 20px;
+  textarea {
+    white-space: pre !important;
+    overflow: auto !important;
+    word-wrap: normal !important;
+    min-height: 300px !important;
+    margin-bottom: 0 !important;
+  }
+  @media (min-width: 1400px) {
+    min-width: 550px;
+  }
+  @media (min-width: 1500px) {
+    min-width: 660px;
+  }
+  @media (min-width: 1600px) {
+    min-width: 700px;
+  }
+}
+
+.vehica-term-importer__parent {
+  min-width: 200px;
+}
+
+.vehica-term-importer__child {
+  margin-left: 10px;
+  min-width: 200px;
+}

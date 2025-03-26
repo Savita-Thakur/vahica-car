@@ -1,0 +1,92 @@
+.vehica-button {
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 4px !important;
+  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 9px 16px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  box-shadow: $shadow-xs;
+  font-weight: 700;
+  color: $color-accent-10 !important;
+  background: $color-accent-5 !important;
+  border-bottom: 2px solid $color-accent-4 !important;
+  border-color: transparent;
+  outline: 0px solid #fff !important;
+  &:hover {
+    box-shadow: $shadow-s !important;
+    background: $color-accent-4 !important;
+    border-bottom: 2px solid $color-accent-3 !important;
+  }
+  &:active {
+    background: $color-accent-3 !important;
+    border-bottom: 2px solid $color-accent-2 !important;
+    box-shadow: none;
+  }
+  .material-icons {
+    font-size: $font-size-normal;
+    line-height: 10px;
+    position: relative;
+    top: 2px;
+  }
+}
+
+.vehica-button--accent {
+  color: #fff;
+  background: $color-primary-5 !important;
+  border-bottom: 2px solid $color-primary-4 !important;
+  &:hover {
+    background: $color-primary-4 !important;
+    border-bottom: 2px solid $color-primary-3 !important;
+  }
+  &:active {
+    background: $color-primary-3 !important;
+    border-bottom: 2px solid $color-primary-2 !important;
+    box-shadow: none;
+  }
+}
+
+.vehica-button--add-new {
+  color: $color-primary-10 !important;
+  background: $color-primary-5 !important;
+  border-bottom: 2px solid $color-primary-4 !important;
+  &:hover {
+    color: $color-primary-10 !important;
+    background: $color-primary-4 !important;
+    border-bottom: 2px solid $color-primary-3 !important;
+  }
+  &:active {
+    color: $color-primary-10 !important;
+    padding: 10px 16px;
+    background: $color-primary-3 !important;
+    border-width: 0px !important;
+    box-shadow: none;
+  }
+  i {
+    color: $color-primary-10 !important;
+  }
+}
+
+.vehica-button--transparent {
+  position: relative !important;
+  top: 1px !important;
+  color: $color-grey-3 !important;
+  background: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  padding: 10px 16px !important;
+  &:hover {
+    box-shadow: none !important;
+    color: $color-grey-2 !important;
+    background: $color-grey-9 !important;
+    border: 0px solid transparent !important;
+  }
+  &:active {
+    box-shadow: none !important;
+    color: $color-grey-1 !important;
+    background: $color-grey-8 !important;
+    border: 0px solid transparent !important;
+  }
+}

@@ -1,0 +1,24 @@
+// Elementor - General - Hide checkboxes
+.elementor_disable_color_schemes,
+.elementor_disable_typography_schemes {
+  display: none;
+}
+
+.elementor_cpt_support {
+  label {
+    position: relative;
+  }
+  input[value="vehica_car"],
+  input[value="vehica_custom_field"],
+  input[value="vehica_config"],
+  input[value="vehica_package"] {
+    width: 185px;
+    height: 20px;
+    position: absolute;
+    top: 2px;
+    background: #f1f1f1;
+    border: 0px !important;
+    box-shadow: none;
+    cursor: auto !important;
+  }
+}

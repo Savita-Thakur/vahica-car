@@ -1,0 +1,79 @@
+.vehica-package-new {
+  background: #fff;
+  padding: 24px;
+  width: 400px;
+  border-radius: 6px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.vehica-package-new__label,
+.vehica-package-new__price,
+.vehica-package-new__name {
+  label {
+    display: block;
+  }
+}
+
+.vehica-package-new__name,
+.vehica-package-new__label,
+.vehica-package-new__price,
+.vehica-package-new__max-listings,
+.vehica-package-new__expire-total,
+.vehica-package-new__expire-featured {
+  margin-bottom: 12px;
+}
+
+.vehica-app--styles {
+  .vehica-package-new__max-listings,
+  .vehica-package-new__expire-featured,
+  .vehica-package-new__expire-total {
+    input {
+      max-width: 60px !important;
+      min-width: 60px !important;
+      width: 60px !important;
+      text-align: center !important;
+      &::-webkit-inner-spin-button,
+      &::-webkit-outer-spin-button {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.vehica-package-new__price-info {
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  background-image: linear-gradient(-90deg, #4098D7, #0F609B);
+  color: #DCEEFB;
+  position: relative;
+  margin-top: 10px;
+  p {
+    border-top: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 14px;
+    line-height: 14px;
+    padding: 6px 0;
+    margin: 0;
+    max-width: 200px;
+    &:first-of-type {
+      margin-top: 10px;
+    }
+    &:last-of-type {
+      border: none !important;
+    }
+  }
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: 50px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #0F609B;
+    border-bottom: 10px solid #0F609B;
+  }
+}

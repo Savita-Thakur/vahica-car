@@ -1,0 +1,21 @@
+{
+  "name": "tangibledesign/falcon",
+  "description": "",
+  "require": {
+    "pimple/pimple": "^3.2",
+    "cocur/slugify": "^3.1",
+    "embed/embed": "^3.3",
+    "stripe/stripe-php": "^7.31",
+    "paypal/paypal-checkout-sdk": "^1.0",
+    "google/recaptcha": "^1.2",
+    "hybridauth/hybridauth": "^3.6"
+  },
+  "config": {
+    "platform-check": false
+  },
+  "autoload": {
+    "classmap": [
+      "app"
+    ]
+  }
+}

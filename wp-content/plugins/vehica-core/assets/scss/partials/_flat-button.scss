@@ -1,0 +1,42 @@
+.vehica-flat-button {
+  border-radius: $rounded-large;
+  cursor: pointer;
+  font-weight: 400;
+  color: $color-grey-6;
+  padding: 3px 9px !important;
+  background: $color-grey-10;
+  outline: 0px solid transparent;
+  border: 0px solid transparent;
+  &:hover {
+    background: $color-grey-9;
+    color: $color-grey-5;
+  }
+  &:active {
+    background: $color-grey-8;
+    color: $color-grey-4;
+  }
+}
+
+.vehica-flat-button--cyan {
+  color: $color-cyan-10 !important;
+  background: $color-cyan-5 !important;
+  &:hover {
+    background: $color-cyan-4 !important;
+  }
+  &:active {
+    background: $color-cyan-3 !important;
+  }
+}
+
+.vehica-flat-button--transparent {
+  color: $color-grey-3;
+  background: transparent !important;
+  &:hover {
+    color: $color-grey-2;
+    background: $color-grey-10;
+  }
+  &:active {
+    color: $color-grey-1;
+    background: $color-grey-9;
+  }
+}

@@ -1,0 +1,30 @@
+.vehica-panel_page_vehica_panel_notifications {
+
+}
+
+.vehica-notification-single {
+}
+
+.vehica-notification-single__email-message {
+  @include clearfix;
+  textarea {
+    width: 100% !important;
+    max-width: 768px !important;
+    padding: 20px !important;
+    height: 200px !important;
+    display: block;
+    margin-top: 10px !important;
+  }
+}
+
+.vehica-notification-single__label {
+  display: block;
+}
+
+.vehica-notification-single__email-message {
+  margin-top: 20px;
+}
+
+.vehica-notification-single__email-sender {
+  margin-bottom: 20px;
+}

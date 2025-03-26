@@ -1,0 +1,77 @@
+.vehica-fields-group {
+  display: flex;
+  margin-bottom: 24px;
+  input[type="text"] {
+    padding: 2px 6px !important;
+    margin-bottom: 6px;
+    z-index: 2;
+    position: relative;
+  }
+}
+
+.vehica-fields-group__subtitle {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.vehica-fields-group__left {
+  width: 50%;
+}
+
+.vehica-field__area-left {
+  min-height: 300px;
+  padding: 12px;
+}
+
+.vehica-fields-group__right {
+  padding: 0 0 0 12px;
+  width: 50%;
+}
+
+.vehica-fields-group__area {
+  background: #fff;
+  overflow: hidden;
+  border-radius: $rounded-large;
+  margin-bottom: 12px;
+}
+
+.vehica-fields-group__area__title {
+  padding: 12px 12px 0 12px;
+  font-size: $font-size-small;
+  font-weight: 700;
+  color: $color-grey-1;
+  position: relative;
+  .fa-trash {
+    position: absolute !important;
+    top: 2px !important;
+    right: 0 !important;
+    padding: 12px !important;
+    font-size: $font-size-small;
+  }
+}
+
+.vehica-fields-group__field {
+  display: block;
+  position: relative;
+  padding-left: 24px;
+  height: 30px;
+  line-height: 30px;
+  font-size: $font-size-small;
+  background-color: $color-primary-4;
+  color: $color-primary-10;
+  margin-bottom: 6px;
+  border-radius: $rounded-medium;
+  @include cursor-grab;
+  i {
+    position: absolute;
+    top: 7px;
+    left: 4px;
+    font-size: $font-size-normal;
+  }
+}
+
+.vehica-fields-group__area__inside {
+  min-height: 60px;
+  padding: 12px;
+}

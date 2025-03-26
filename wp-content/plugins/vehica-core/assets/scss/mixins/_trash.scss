@@ -1,0 +1,22 @@
+@mixin trash {
+  cursor: pointer;
+  color: $color-grey-3;
+  box-shadow: $shadow-xs;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  top: 6px;
+  right: 6px;
+  background: #fff;
+  border-radius: 100%;
+  position: absolute;
+  &:hover {
+    color: $color-grey-2;
+    background: $color-grey-10;
+  }
+  &:active {
+    color: $color-grey-1;
+    background: $color-grey-9;
+  }
+}

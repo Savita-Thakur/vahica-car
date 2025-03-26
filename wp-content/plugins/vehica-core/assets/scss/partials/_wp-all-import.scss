@@ -1,0 +1,30 @@
+.wpallimport-free-edition-notice {
+  display: none !important;
+}
+
+.wpallimport-custom-fields {
+  display: none;
+}
+
+input + .wpallimport-featured-images {
+  display: none;
+}
+
+input[name="large_feed_limit"],
+input[name="log_storage"] {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.vehica-wp-allimport-doc-link {
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 23px;
+  padding: 0;
+  line-height: 1.3;
+  display: block;
+  &:hover {
+    text-decoration: underline !important;
+  }
+}

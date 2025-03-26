@@ -1,0 +1,32 @@
+.vehica-loading {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  position: relative;
+}
+
+.vehica-loading--single {
+  top: 9px;
+  left: 36px;
+}
+
+.vehica-loading:after {
+  content: " ";
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: 1px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  border-color: $color-grey-1 transparent $color-grey-1 transparent;
+  animation: vehica-loading .7s linear infinite;
+}
+
+@keyframes vehica-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

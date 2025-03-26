@@ -1,0 +1,103 @@
+.vehica-menu {
+  min-width: 256px;
+}
+
+.vehica-menu__inner {
+  @media (min-height: 750px) {
+    position: fixed;
+    top: 32px;
+  }
+  padding: 32px 32px 24px 32px;
+}
+
+.vehica-menu__brand {
+  padding: 0 0 24px 0;
+  vertical-align: top;
+  text-align: center;
+  img {
+    height: 28px;
+  }
+}
+
+.vehica-menu__link {
+  position: relative;
+  font-size: $font-size-small;
+  display: block;
+  border-radius: $rounded-normal;
+  padding: 6px 12px 6px 28px;
+  line-height: 24px;
+
+  i {
+    color: $color-grey-7;
+    position: absolute;
+    top: 10px;
+    left: 6px;
+    font-size: $font-size-small;
+  }
+
+  &:not(.vehica-menu__link--active):hover {
+    color: $color-grey-1 !important;
+    background: $color-grey-10 !important;
+
+    i {
+      color: $color-grey-3;
+    }
+  }
+
+  &.vehica-menu__link--active {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    @include gradient;
+  }
+
+  &.vehica-menu__link--no-submenu {
+    border-radius: $rounded-normal;
+  }
+}
+
+.vehica-menu__link--rounded {
+  border-bottom-left-radius: $rounded-normal !important;
+  border-bottom-right-radius: $rounded-normal !important;
+}
+
+.vehica-menu__submenu {
+  margin-bottom: 3px;
+  background: $color-primary-10;
+  border-bottom-left-radius: $rounded-normal;
+  border-bottom-right-radius: $rounded-normal;
+
+  a {
+    display: block;
+    font-size: 14px;
+    line-height: 16px;
+    color: $color-grey-3 !important;
+    padding: 6px 12px 6px 26px;
+    border-left: 2px solid transparent !important;
+
+    &.vehica-menu__submenu__link--active {
+      border-left: 2px solid $color-primary-4 !important;
+      background: $color-primary-9 !important;
+    }
+
+    position: relative;
+
+    .material-icons {
+      color: $color-grey-6 !important;
+      position: absolute;
+      font-size: 14px;
+      top: 7px;
+      left: 6px;
+    }
+
+    &:hover {
+      color: $color-grey-1 !important;
+      border-left: 2px solid $color-primary-4 !important;
+      background: $color-primary-9 !important;
+    }
+
+    &:last-of-type {
+      border-bottom-left-radius: $rounded-normal;
+      border-bottom-right-radius: $rounded-normal;
+    }
+  }
+}

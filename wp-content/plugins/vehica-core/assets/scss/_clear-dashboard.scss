@@ -1,0 +1,41 @@
+/* Clear WordPress styles for  Vehica Pages */
+.toplevel_page_vehica_panel:not(.menu-top),
+body.toplevel_page_vehica_demo_importer,
+body.toplevel_page_vehica_demo_exporter,
+body.toplevel_page_vehica-updater,
+.vehica_panel_layouts_and_templates,
+.vehica_panel_rename_and_translate,
+.vehica_panel_basic_setup,
+.vehica_panel_car_fields,
+.vehica-panel_page_vehica_design,
+.vehica-edit-field,
+.vehica-panel_page_vehica_panel_frontend_panel,
+.vehica_panel_advanced,
+.vehica_panel_monetization,
+.vehica-panel_page_vehica_panel_notifications,
+.vehica-panel_page_vehica_panel_maps,
+.vehica-panel_page_vehica_panel_user_panel,
+body[class*="admin_page_mc"] {
+  background: #fff;
+  #wpfooter {
+    display: none;
+  }
+  #wpbody-content {
+    padding-bottom: 0;
+  }
+  #wpcontent {
+    padding-left: 0 !important;
+  }
+  .error,
+  .notice,
+  .updated,
+  .update-nag {
+    display: none !important;
+  }
+}
+
+#wp-admin-bar-new-vehica_template,
+#wp-admin-bar-new-vehica_custom_field,
+#wp-admin-bar-new-vehica_config {
+  display: none !important;
+}

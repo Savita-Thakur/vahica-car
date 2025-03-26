@@ -1,0 +1,117 @@
+// Selectize - Car
+.post-type-vehica_car {
+  input {
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .07) !important;
+  }
+  .selectize-input {
+    background: #fff !important;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .07) !important;
+  }
+  select.vehica-selectize {
+    display: none;
+  }
+  div.vehica-selectize.selectize-control {
+    display: block;
+    margin-bottom: 0 !important;
+
+    .selectize-input {
+      @include field-style;
+      background: #fff !important;
+      margin-bottom: 0 !important;
+    }
+    .selectize-dropdown-content {
+      border: 0px solid transparent !important;
+      box-shadow: none !important;
+    }
+    .selectize-dropdown .option {
+      background: #fff;
+      text-color: $color-grey-3;
+      cursor: pointer;
+      &.active {
+        color: $color-primary-4;
+        background: $color-primary-10;
+      }
+    }
+    .selectize-input:after {
+      display: none !important;
+    }
+  }
+  .item {
+    padding-left: 5px !important;
+    border-radius: 4px !important;
+    padding-right: 5px !important;
+    background: #f5f5f5 !important;
+    color: #222 !important;
+    border: 1px solid #ddd !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+  .create {
+    padding: 6px 12px !important;
+  }
+}
+
+// Selectize - Vehica Panel
+
+.vehica-panel {
+  select.vehica-selectize {
+    display: none;
+  }
+  div.selectize-control {
+    display: block;
+    margin-bottom: 0 !important;
+    &:after {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      content: "\f107";
+      position: absolute;
+      z-index: 2;
+      top: 7px;
+      right: 11px;
+      pointer-events: none;
+      font-size: 16px;
+      color: #9FB3C8;
+    }
+    .selectize-input {
+      @include field-style;
+      padding: 7px 9px !important;
+      background: #fff !important;
+      margin-bottom: 0 !important;
+    }
+    .selectize-dropdown-content {
+      border: 0px solid transparent !important;
+      box-shadow: none !important;
+    }
+    .selectize-dropdown .option {
+      background: #fff;
+      text-color: $color-grey-3;
+      cursor: pointer;
+      &.active {
+        color: $color-primary-4;
+        background: $color-primary-10;
+      }
+    }
+    .selectize-input:after {
+      display: none !important;
+    }
+  }
+  .vehica-selectize.multi {
+    &:after {
+      top: 5px !important;
+    }
+    .selectize-input .item {
+      border: 0px solid transparent !important;
+      border-radius: 4px !important;
+      text-shadow: none !important;
+      box-shadow: none !important;
+      background: #f4f4f4 !important;
+      margin-top: 3px !important;
+      color: #000 !important;
+    }
+  }
+}
+
+.vehica-edit__field--field-visibility .selectize-input > input::placeholder {
+  color: #102A43 !important;
+}
+

@@ -1,0 +1,17 @@
+.vehica-action {
+  cursor: pointer !important;
+  margin-left: 6px !important;
+  padding: 3px !important;
+  font-size: $font-size-small !important;
+  line-height: 16px !important;
+  display: inline-block;
+  color: $color-grey-5 !important;
+  &:hover {
+    color: $color-grey-1 !important;
+  }
+}
+
+.vehica-action--left {
+  margin-left: 0 !important;
+  float: initial !important;
+}

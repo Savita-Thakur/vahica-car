@@ -1,0 +1,750 @@
+0000.002 (0) Opened log file at time: Fri, 21 Mar 2025 10:03:59 +0000 on http://travel-car.test
+0000.015 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.4 WP: 6.7.2 PHP: 8.1.10 (apache2handler, Windows NT DESKTOP-MMI9QA2 10.0 build 19045 (Windows 10) AMD64) MySQL: 8.0.30 (max packet size=536870912) WPLANG: en_US Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 110.2M | 112M) multisite: N openssl: OpenSSL 1.1.1q  5 Jul 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.025 (0) Free space on disk containing Updraft's temporary directory: 70220.7 MB
+0000.039 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.044 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.152 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1742375282, seconds_ago=176157)
+0000.172 (0) Set semaphore last lock (fd) time to 2025-03-21 10:03:59
+0000.177 (0) Semaphore lock (fd) complete
+0000.205 (0) Backup run: resumption=0, nonce=cd073ede1356, file_nonce=cd073ede1356 begun at=1742551439 (0s ago), job type=backup
+0000.218 (0) Scheduling a resumption (1) after 300 seconds (1742551739) in case this run gets aborted
+0000.358 (0) Checking if we have a zip executable available
+0000.371 (0) Creation of backups of directories: beginning
+0000.391 (0) No backup of plugins: excluded by user's options
+0000.401 (0) No backup of themes: excluded by user's options
+0000.407 (0) No backup of uploads: excluded by user's options
+0000.416 (0) No backup of mu-plugins: excluded by user's options
+0000.421 (0) No backup of others: excluded by user's options
+0000.441 (0) Saving backup status to database (elements: 0)
+0000.456 (0) Beginning creation of database dump (WordPress DB)
+0000.463 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0000.568 (0) Table wp_options: Total expected rows (approximate): 1171
+0001.051 (0) Table wp_options: Rows added in this batch (next record: 287970): 1184 (uncompressed bytes in this segment=4630438) in 0.51 seconds
+0001.097 (0) Table wp_options: finishing file(s) (2, 673.9 KB)
+0001.192 (0) Table wp_users: Total expected rows (via COUNT): 911
+0001.257 (0) Table wp_users: Rows added in this batch (next record: 1100): 911 (uncompressed bytes in this segment=135664) in 0.12 seconds
+0001.294 (0) Table wp_users: finishing file(s) (2, 53.4 KB)
+0001.545 (0) Table wp_usermeta: Total expected rows (approximate): 21528
+0002.218 (0) Table wp_usermeta: Rows added in this batch (next record: 39261): 22880 (uncompressed bytes in this segment=1395965) in 0.89 seconds
+0002.256 (0) Table wp_usermeta: finishing file(s) (2, 256 KB)
+0002.313 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 19
+0002.319 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.335 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 1832): 19 (uncompressed bytes in this segment=10015) in 0.05 seconds
+0002.372 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.6 KB)
+0002.404 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0002.416 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=624) in 0.02 seconds
+0002.446 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0002.485 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 8
+0002.490 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.505 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=857) in 0.04 seconds
+0002.538 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0002.588 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 45
+0002.596 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.613 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 4861): 45 (uncompressed bytes in this segment=5122) in 0.06 seconds
+0002.655 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 1.2 KB)
+0002.722 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0002.737 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=695) in 0.04 seconds
+0002.774 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0002.853 (0) Table wp_comments: Total expected rows (via COUNT): 329
+0002.859 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.905 (0) Table wp_comments: Rows added in this batch (next record: 386): 329 (uncompressed bytes in this segment=138500) in 0.09 seconds
+0002.938 (0) Table wp_comments: finishing file(s) (2, 29.7 KB)
+0002.987 (0) Table wp_links: Total expected rows (via COUNT): 0
+0003.001 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1298) in 0.03 seconds
+0003.033 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0016.163 (0) Table wp_postmeta: Total expected rows (approximate): 118057
+0032.807 (0) Table wp_postmeta: Rows added in this batch (next record: 320936): 80000 (uncompressed bytes in this segment=132375323) in 29.75 seconds
+0033.335 (0) Table wp_postmeta: Total expected rows (via COUNT): 102601
+0038.376 (0) Table wp_postmeta: Rows added in this batch (next record: 350637): 22601 (uncompressed bytes in this segment=44271346) in 5.52 seconds
+0038.453 (0) Table wp_postmeta: finishing file(s) (3, 12004.3 KB)
+0044.918 (0) Table wp_posts: Total expected rows (approximate): 7593
+0055.764 (0) Table wp_posts: Rows added in this batch (next record: 34390): 8000 (uncompressed bytes in this segment=110912493) in 17.28 seconds
+0056.108 (0) Table wp_posts: Total expected rows (via COUNT): 14234
+0064.439 (0) Table wp_posts: Rows added in this batch (next record: 42780): 6234 (uncompressed bytes in this segment=88272917) in 8.65 seconds
+0064.484 (0) Table wp_posts: finishing file(s) (3, 14065.3 KB)
+0064.516 (0) Table wp_term_relationships: Total expected rows (approximate): 3266
+0064.570 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 3261 (uncompressed bytes in this segment=60909) in 0.06 seconds
+0064.610 (0) Table wp_term_relationships: finishing file(s) (2, 10.1 KB)
+0064.671 (0) Table wp_term_taxonomy: Total expected rows (approximate): 2102
+0064.742 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 6053): 2102 (uncompressed bytes in this segment=85372) in 0.10 seconds
+0064.784 (0) Table wp_term_taxonomy: finishing file(s) (2, 11.9 KB)
+0064.870 (0) Table wp_termmeta: Total expected rows (approximate): 7154
+0065.073 (0) Table wp_termmeta: Rows added in this batch (next record: 25579): 7212 (uncompressed bytes in this segment=362777) in 0.27 seconds
+0065.119 (0) Table wp_termmeta: finishing file(s) (2, 38.6 KB)
+0065.151 (0) Table wp_terms: Total expected rows (approximate): 2101
+0065.222 (0) Table wp_terms: Rows added in this batch (next record: 6053): 2101 (uncompressed bytes in this segment=75781) in 0.08 seconds
+0065.254 (0) Table wp_terms: finishing file(s) (2, 22.9 KB)
+0065.299 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 0
+0065.310 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=585) in 0.02 seconds
+0065.341 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.3 KB)
+0065.404 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 3
+0065.410 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0065.426 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: 36852): 3 (uncompressed bytes in this segment=1690) in 0.04 seconds
+0065.458 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 0.6 KB)
+0065.499 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0065.516 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=657) in 0.03 seconds
+0065.555 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0065.606 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0065.613 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0065.629 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=808) in 0.04 seconds
+0065.663 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0065.721 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (via COUNT): 27
+0065.727 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0065.750 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: 27): 27 (uncompressed bytes in this segment=1796) in 0.05 seconds
+0065.787 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 0.6 KB)
+0065.841 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0065.856 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=790) in 0.04 seconds
+0065.898 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0065.929 (0) Table wp_cartflows_ca_cart_abandonment: Total expected rows (approximate): 0
+0065.945 (0) Table wp_cartflows_ca_cart_abandonment: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=2507) in 0.02 seconds
+0065.986 (0) Table wp_cartflows_ca_cart_abandonment: finishing file(s) (2, 1 KB)
+0066.031 (0) Table wp_cartflows_ca_email_history: Total expected rows (via COUNT): 2
+0066.039 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0066.054 (0) Table wp_cartflows_ca_email_history: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1368) in 0.04 seconds
+0066.090 (0) Table wp_cartflows_ca_email_history: finishing file(s) (2, 0.6 KB)
+0066.127 (0) Table wp_cartflows_ca_email_templates: Total expected rows (via COUNT): 3
+0066.135 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0066.144 (0) Table wp_cartflows_ca_email_templates: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=10712) in 0.03 seconds
+0066.177 (0) Table wp_cartflows_ca_email_templates: finishing file(s) (2, 2.1 KB)
+0066.227 (0) Table wp_cartflows_ca_email_templates_meta: Total expected rows (via COUNT): 24
+0066.233 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0066.242 (0) Table wp_cartflows_ca_email_templates_meta: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1934) in 0.04 seconds
+0066.280 (0) Table wp_cartflows_ca_email_templates_meta: finishing file(s) (2, 0.7 KB)
+0066.327 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0066.340 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=525) in 0.03 seconds
+0066.371 (0) Table wp_e_events: finishing file(s) (2, 0.3 KB)
+0066.426 (0) Table wp_e_submissions: Total expected rows (via COUNT): 0
+0066.434 (0) Table wp_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2254) in 0.03 seconds
+0066.468 (0) Table wp_e_submissions: finishing file(s) (2, 0.7 KB)
+0066.516 (0) Table wp_e_submissions_actions_log: Total expected rows (via COUNT): 0
+0066.524 (0) Table wp_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1243) in 0.02 seconds
+0066.558 (0) Table wp_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0066.608 (0) Table wp_e_submissions_values: Total expected rows (via COUNT): 0
+0066.620 (0) Table wp_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=716) in 0.03 seconds
+0066.655 (0) Table wp_e_submissions_values: finishing file(s) (2, 0.4 KB)
+0066.714 (0) Table wp_jetpack_sync_queue: Total expected rows (via COUNT): 10
+0066.719 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0066.734 (0) Table wp_jetpack_sync_queue: Rows added in this batch (next record: 952): 10 (uncompressed bytes in this segment=11244) in 0.04 seconds
+0066.770 (0) Table wp_jetpack_sync_queue: finishing file(s) (2, 2.3 KB)
+0066.814 (0) Table wp_mclean_refs: Total expected rows (approximate): 1835
+0066.887 (0) Table wp_mclean_refs: Rows added in this batch (next record: 1835): 1835 (uncompressed bytes in this segment=137280) in 0.09 seconds
+0066.920 (0) Table wp_mclean_refs: finishing file(s) (2, 18.6 KB)
+0066.973 (0) Table wp_mclean_scan: Total expected rows (via COUNT): 341
+0066.979 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0067.006 (0) Table wp_mclean_scan: Rows added in this batch (next record: 1028): 341 (uncompressed bytes in this segment=43796) in 0.05 seconds
+0067.039 (0) Table wp_mclean_scan: finishing file(s) (2, 8.6 KB)
+0067.116 (0) Table wp_newsletter: Total expected rows (via COUNT): 2
+0067.121 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0067.138 (0) Table wp_newsletter: Rows added in this batch (next record: 3): 2 (uncompressed bytes in this segment=6131) in 0.06 seconds
+0067.172 (0) Table wp_newsletter: finishing file(s) (2, 0.9 KB)
+0067.219 (0) Table wp_newsletter_emails: Total expected rows (via COUNT): 1
+0067.224 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0067.235 (0) Table wp_newsletter_emails: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=10647) in 0.04 seconds
+0067.272 (0) Table wp_newsletter_emails: finishing file(s) (2, 2.9 KB)
+0067.330 (0) Table wp_newsletter_logs: Total expected rows (via COUNT): 1
+0067.335 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0067.343 (0) Table wp_newsletter_logs: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=867) in 0.04 seconds
+0067.378 (0) Table wp_newsletter_logs: finishing file(s) (2, 0.5 KB)
+0067.420 (0) Table wp_newsletter_sent: Total expected rows (approximate): 0
+0067.436 (0) Table wp_newsletter_sent: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=852) in 0.03 seconds
+0067.471 (0) Table wp_newsletter_sent: finishing file(s) (2, 0.4 KB)
+0067.516 (0) Table wp_newsletter_stats: Total expected rows (via COUNT): 0
+0067.523 (0) Table wp_newsletter_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=813) in 0.02 seconds
+0067.556 (0) Table wp_newsletter_stats: finishing file(s) (2, 0.4 KB)
+0067.615 (0) Table wp_newsletter_user_logs: Total expected rows (via COUNT): 3
+0067.621 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0067.695 (0) Table wp_newsletter_user_logs: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=999) in 0.11 seconds
+0067.741 (0) Table wp_newsletter_user_logs: finishing file(s) (2, 0.5 KB)
+0067.796 (0) Table wp_newsletter_user_meta: Total expected rows (via COUNT): 0
+0067.808 (0) Table wp_newsletter_user_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=654) in 0.03 seconds
+0067.844 (0) Table wp_newsletter_user_meta: finishing file(s) (2, 0.4 KB)
+0067.893 (0) Table wp_nextend2_image_storage: Total expected rows (via COUNT): 0
+0067.907 (0) Table wp_nextend2_image_storage: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=680) in 0.03 seconds
+0067.938 (0) Table wp_nextend2_image_storage: finishing file(s) (2, 0.4 KB)
+0067.972 (0) Table wp_nextend2_section_storage: Total expected rows (via COUNT): 1
+0067.977 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0067.990 (0) Table wp_nextend2_section_storage: Rows added in this batch (next record: 10000): 1 (uncompressed bytes in this segment=1229) in 0.03 seconds
+0068.023 (0) Table wp_nextend2_section_storage: finishing file(s) (2, 0.6 KB)
+0068.070 (0) Table wp_nextend2_smartslider3_generators: Total expected rows (via COUNT): 0
+0068.086 (0) Table wp_nextend2_smartslider3_generators: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=714) in 0.03 seconds
+0068.117 (0) Table wp_nextend2_smartslider3_generators: finishing file(s) (2, 0.4 KB)
+0068.169 (0) Table wp_nextend2_smartslider3_sliders: Total expected rows (via COUNT): 1
+0068.175 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0068.192 (0) Table wp_nextend2_smartslider3_sliders: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=20738) in 0.04 seconds
+0068.226 (0) Table wp_nextend2_smartslider3_sliders: finishing file(s) (2, 3.8 KB)
+0068.268 (0) Table wp_nextend2_smartslider3_sliders_xref: Total expected rows (approximate): 0
+0068.283 (0) Table wp_nextend2_smartslider3_sliders_xref: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=649) in 0.02 seconds
+0068.313 (0) Table wp_nextend2_smartslider3_sliders_xref: finishing file(s) (2, 0.3 KB)
+0068.376 (0) Table wp_nextend2_smartslider3_slides: Total expected rows (via COUNT): 2
+0068.382 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0068.399 (0) Table wp_nextend2_smartslider3_slides: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=31061) in 0.05 seconds
+0068.439 (0) Table wp_nextend2_smartslider3_slides: finishing file(s) (2, 2.8 KB)
+0068.487 (0) Table wp_pmxi_files: Total expected rows (via COUNT): 0
+0068.500 (0) Table wp_pmxi_files: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=626) in 0.03 seconds
+0068.534 (0) Table wp_pmxi_files: finishing file(s) (2, 0.4 KB)
+0068.574 (0) Table wp_pmxi_hash: Total expected rows (approximate): 0
+0068.584 (0) Table wp_pmxi_hash: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=546) in 0.02 seconds
+0068.621 (0) Table wp_pmxi_hash: finishing file(s) (2, 0.3 KB)
+0068.666 (0) Table wp_pmxi_history: Total expected rows (via COUNT): 0
+0068.673 (0) Table wp_pmxi_history: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=755) in 0.02 seconds
+0068.704 (0) Table wp_pmxi_history: finishing file(s) (2, 0.4 KB)
+0068.752 (0) Table wp_pmxi_images: Total expected rows (via COUNT): 145
+0068.757 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0068.773 (0) Table wp_pmxi_images: Rows added in this batch (next record: 155): 145 (uncompressed bytes in this segment=7141) in 0.04 seconds
+0068.807 (0) Table wp_pmxi_images: finishing file(s) (2, 2.2 KB)
+0068.870 (0) Table wp_pmxi_imports: Total expected rows (via COUNT): 0
+0068.882 (0) Table wp_pmxi_imports: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2026) in 0.04 seconds
+0068.918 (0) Table wp_pmxi_imports: finishing file(s) (2, 0.6 KB)
+0068.964 (0) Table wp_pmxi_posts: Total expected rows (via COUNT): 0
+0068.971 (0) Table wp_pmxi_posts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=700) in 0.02 seconds
+0069.006 (0) Table wp_pmxi_posts: finishing file(s) (2, 0.4 KB)
+0069.058 (0) Table wp_pmxi_templates: Total expected rows (via COUNT): 0
+0069.065 (0) Table wp_pmxi_templates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=948) in 0.03 seconds
+0069.102 (0) Table wp_pmxi_templates: finishing file(s) (2, 0.4 KB)
+0069.151 (0) Table wp_rank_math_404_logs: Total expected rows (via COUNT): 0
+0069.158 (0) Table wp_rank_math_404_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=822) in 0.03 seconds
+0069.189 (0) Table wp_rank_math_404_logs: finishing file(s) (2, 0.4 KB)
+0069.234 (0) Table wp_rank_math_analytics_gsc: Total expected rows (approximate): 92026
+0072.766 (0) Table wp_rank_math_analytics_gsc: Rows added in this batch (next record: 107221): 92877 (uncompressed bytes in this segment=9264880) in 3.54 seconds
+0072.833 (0) Table wp_rank_math_analytics_gsc: Total expected rows (via COUNT): 92877
+0072.840 (0) Table wp_rank_math_analytics_gsc: Rows added in this batch (next record: 107221): 0 (uncompressed bytes in this segment=0) in 0.05 seconds
+0072.873 (0) Table wp_rank_math_analytics_gsc: finishing file(s) (3, 999.5 KB)
+0072.940 (0) Table wp_rank_math_analytics_inspections: Total expected rows (via COUNT): 118
+0072.945 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0072.971 (0) Table wp_rank_math_analytics_inspections: Rows added in this batch (next record: 132): 118 (uncompressed bytes in this segment=57017) in 0.06 seconds
+0073.009 (0) Table wp_rank_math_analytics_inspections: finishing file(s) (2, 5.1 KB)
+0073.083 (0) Table wp_rank_math_analytics_objects: Total expected rows (via COUNT): 897
+0073.165 (0) Table wp_rank_math_analytics_objects: Rows added in this batch (next record: 987): 897 (uncompressed bytes in this segment=172641) in 0.12 seconds
+0073.203 (0) Table wp_rank_math_analytics_objects: finishing file(s) (2, 18.7 KB)
+0073.255 (0) Table wp_rank_math_internal_links: Total expected rows (approximate): 2063
+0073.336 (0) Table wp_rank_math_internal_links: Rows added in this batch (next record: 150187): 2063 (uncompressed bytes in this segment=185347) in 0.09 seconds
+0073.374 (0) Table wp_rank_math_internal_links: finishing file(s) (2, 22.2 KB)
+0073.423 (0) Table wp_rank_math_internal_meta: Total expected rows (via COUNT): 540
+0073.430 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0073.451 (0) Table wp_rank_math_internal_meta: Rows added in this batch (next record: 42687): 540 (uncompressed bytes in this segment=11064) in 0.05 seconds
+0073.490 (0) Table wp_rank_math_internal_meta: finishing file(s) (2, 2.6 KB)
+0073.537 (0) Table wp_rank_math_redirections: Total expected rows (via COUNT): 0
+0073.557 (0) Table wp_rank_math_redirections: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=996) in 0.03 seconds
+0073.591 (0) Table wp_rank_math_redirections: finishing file(s) (2, 0.5 KB)
+0073.632 (0) Table wp_rank_math_redirections_cache: Total expected rows (via COUNT): 0
+0073.639 (0) Table wp_rank_math_redirections_cache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=863) in 0.02 seconds
+0073.676 (0) Table wp_rank_math_redirections_cache: finishing file(s) (2, 0.4 KB)
+0073.709 (0) Table wp_redirection_404: Total expected rows (via COUNT): 0
+0073.717 (0) Table wp_redirection_404: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1069) in 0.02 seconds
+0073.753 (0) Table wp_redirection_404: finishing file(s) (2, 0.4 KB)
+0073.803 (0) Table wp_redirection_groups: Total expected rows (via COUNT): 2
+0073.808 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0073.823 (0) Table wp_redirection_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=956) in 0.04 seconds
+0073.854 (0) Table wp_redirection_groups: finishing file(s) (2, 0.5 KB)
+0073.890 (0) Table wp_redirection_items: Total expected rows (via COUNT): 35
+0073.896 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0073.913 (0) Table wp_redirection_items: Rows added in this batch (next record: 35): 35 (uncompressed bytes in this segment=9777) in 0.04 seconds
+0073.944 (0) Table wp_redirection_items: finishing file(s) (2, 1.9 KB)
+0073.977 (0) Table wp_redirection_logs: Total expected rows (via COUNT): 0
+0073.990 (0) Table wp_redirection_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1246) in 0.02 seconds
+0074.023 (0) Table wp_redirection_logs: finishing file(s) (2, 0.5 KB)
+0074.072 (0) Table wp_surfer_gsc_traffic: Total expected rows (via COUNT): 0
+0074.079 (0) Table wp_surfer_gsc_traffic: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=802) in 0.03 seconds
+0074.110 (0) Table wp_surfer_gsc_traffic: finishing file(s) (2, 0.4 KB)
+0074.166 (0) Table wp_vehica_messages: Total expected rows (via COUNT): 0
+0074.173 (0) Table wp_vehica_messages: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=635) in 0.03 seconds
+0074.209 (0) Table wp_vehica_messages: finishing file(s) (2, 0.4 KB)
+0074.256 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 128
+0074.262 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.280 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 55651): 128 (uncompressed bytes in this segment=24196) in 0.05 seconds
+0074.326 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 4 KB)
+0074.367 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 93
+0074.373 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.398 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 100): 93 (uncompressed bytes in this segment=43661) in 0.05 seconds
+0074.434 (0) Table wp_wc_admin_notes: finishing file(s) (2, 9.9 KB)
+0074.484 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 10
+0074.490 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.505 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=2547) in 0.04 seconds
+0074.540 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 1 KB)
+0074.587 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 4
+0074.593 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.603 (0) Table wp_wc_download_log: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1012) in 0.03 seconds
+0074.640 (0) Table wp_wc_download_log: finishing file(s) (2, 0.5 KB)
+0074.692 (0) Table wp_wc_order_addresses: Total expected rows (via COUNT): 3
+0074.699 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.707 (0) Table wp_wc_order_addresses: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1766) in 0.04 seconds
+0074.739 (0) Table wp_wc_order_addresses: finishing file(s) (2, 0.6 KB)
+0074.783 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0074.799 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=709) in 0.03 seconds
+0074.827 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0074.882 (0) Table wp_wc_order_operational_data: Total expected rows (via COUNT): 3
+0074.888 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.902 (0) Table wp_wc_order_operational_data: Rows added in this batch (next record: 15): 3 (uncompressed bytes in this segment=2198) in 0.04 seconds
+0074.938 (0) Table wp_wc_order_operational_data: finishing file(s) (2, 0.8 KB)
+0074.992 (0) Table wp_wc_order_product_lookup: Total expected rows (via COUNT): 3
+0074.998 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0075.007 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1503) in 0.04 seconds
+0075.038 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.6 KB)
+0075.091 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 3
+0075.099 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0075.107 (0) Table wp_wc_order_stats: Rows added in this batch (next record: 37378): 3 (uncompressed bytes in this segment=1682) in 0.04 seconds
+0075.139 (0) Table wp_wc_order_stats: finishing file(s) (2, 0.6 KB)
+0075.180 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0075.195 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=791) in 0.02 seconds
+0075.225 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0075.259 (0) Table wp_wc_orders: Total expected rows (via COUNT): 3
+0075.266 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0075.281 (0) Table wp_wc_orders: Rows added in this batch (next record: 37378): 3 (uncompressed bytes in this segment=2750) in 0.04 seconds
+0075.313 (0) Table wp_wc_orders: finishing file(s) (2, 1 KB)
+0075.361 (0) Table wp_wc_orders_meta: Total expected rows (via COUNT): 56
+0075.368 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0075.383 (0) Table wp_wc_orders_meta: Rows added in this batch (next record: 56): 56 (uncompressed bytes in this segment=4624) in 0.04 seconds
+0075.416 (0) Table wp_wc_orders_meta: finishing file(s) (2, 1.4 KB)
+0075.457 (0) Table wp_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0075.472 (0) Table wp_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=850) in 0.02 seconds
+0075.505 (0) Table wp_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0075.553 (0) Table wp_wc_product_download_directories: Total expected rows (via COUNT): 3
+0075.560 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0075.576 (0) Table wp_wc_product_download_directories: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=976) in 0.04 seconds
+0075.609 (0) Table wp_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0075.655 (0) Table wp_wc_rate_limits: Total expected rows (via COUNT): 0
+0075.667 (0) Table wp_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=688) in 0.03 seconds
+0075.698 (0) Table wp_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0075.749 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 0
+0075.756 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1215) in 0.02 seconds
+0075.790 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0075.845 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0075.853 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1038) in 0.03 seconds
+0075.890 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.5 KB)
+0075.936 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0075.943 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=954) in 0.02 seconds
+0075.975 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0076.026 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 3
+0076.035 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0076.051 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=2057) in 0.04 seconds
+0076.082 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.7 KB)
+0076.135 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0076.147 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=715) in 0.03 seconds
+0076.190 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0076.237 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 3
+0076.242 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0076.266 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=947) in 0.05 seconds
+0076.297 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.5 KB)
+0076.347 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0076.359 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=833) in 0.03 seconds
+0076.398 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0076.437 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 0
+0076.444 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=730) in 0.02 seconds
+0076.481 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 0.4 KB)
+0076.530 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0076.537 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=895) in 0.02 seconds
+0076.572 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0076.620 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0076.627 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=763) in 0.02 seconds
+0076.667 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0076.717 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0076.724 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.03 seconds
+0076.755 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0076.799 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0076.807 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=840) in 0.02 seconds
+0076.842 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0076.894 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0076.905 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1283) in 0.03 seconds
+0076.943 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.4 KB)
+0076.992 (0) Table wp_wpfm_backup: Total expected rows (via COUNT): 0
+0077.001 (0) Table wp_wpfm_backup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=510) in 0.03 seconds
+0077.036 (0) Table wp_wpfm_backup: finishing file(s) (2, 0.3 KB)
+0077.090 (0) Table wp_wpforms_logs: Total expected rows (via COUNT): 0
+0077.097 (0) Table wp_wpforms_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=736) in 0.03 seconds
+0077.140 (0) Table wp_wpforms_logs: finishing file(s) (2, 0.4 KB)
+0077.201 (0) Table wp_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0077.213 (0) Table wp_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=731) in 0.04 seconds
+0077.257 (0) Table wp_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0077.310 (0) Table wp_wpforms_payments: Total expected rows (via COUNT): 0
+0077.324 (0) Table wp_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1958) in 0.03 seconds
+0077.355 (0) Table wp_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0077.418 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 4
+0077.423 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0077.438 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 5): 4 (uncompressed bytes in this segment=969) in 0.05 seconds
+0077.474 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0077.519 (0) Table wp_wpmlautoresponderemails: Total expected rows (via COUNT): 0
+0077.531 (0) Table wp_wpmlautoresponderemails: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1063) in 0.02 seconds
+0077.561 (0) Table wp_wpmlautoresponderemails: finishing file(s) (2, 0.4 KB)
+0077.608 (0) Table wp_wpmlautoresponders: Total expected rows (via COUNT): 0
+0077.617 (0) Table wp_wpmlautoresponders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1230) in 0.02 seconds
+0077.644 (0) Table wp_wpmlautoresponders: finishing file(s) (2, 0.5 KB)
+0077.689 (0) Table wp_wpmlautorespondersforms: Total expected rows (via COUNT): 0
+0077.696 (0) Table wp_wpmlautorespondersforms: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=760) in 0.01 seconds
+0077.731 (0) Table wp_wpmlautorespondersforms: finishing file(s) (2, 0.4 KB)
+0077.772 (0) Table wp_wpmlautoresponderslists: Total expected rows (via COUNT): 0
+0077.781 (0) Table wp_wpmlautoresponderslists: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=768) in 0.02 seconds
+0077.812 (0) Table wp_wpmlautoresponderslists: finishing file(s) (2, 0.4 KB)
+0077.854 (0) Table wp_wpmlbounces: Total expected rows (via COUNT): 0
+0077.860 (0) Table wp_wpmlbounces: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=796) in 0.02 seconds
+0077.892 (0) Table wp_wpmlbounces: finishing file(s) (2, 0.4 KB)
+0077.945 (0) Table wp_wpmlclicks: Total expected rows (via COUNT): 1
+0077.951 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0077.966 (0) Table wp_wpmlclicks: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1100) in 0.03 seconds
+0077.999 (0) Table wp_wpmlclicks: finishing file(s) (2, 0.5 KB)
+0078.040 (0) Table wp_wpmlcontents: Total expected rows (via COUNT): 0
+0078.053 (0) Table wp_wpmlcontents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=704) in 0.02 seconds
+0078.083 (0) Table wp_wpmlcontents: finishing file(s) (2, 0.4 KB)
+0078.128 (0) Table wp_wpmlcountries: Total expected rows (via COUNT): 241
+0078.135 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0078.168 (0) Table wp_wpmlcountries: Rows added in this batch (next record: 243): 241 (uncompressed bytes in this segment=20328) in 0.05 seconds
+0078.204 (0) Table wp_wpmlcountries: finishing file(s) (2, 4 KB)
+0078.254 (0) Table wp_wpmlemails: Total expected rows (via COUNT): 68
+0078.259 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0078.282 (0) Table wp_wpmlemails: Rows added in this batch (next record: 68): 68 (uncompressed bytes in this segment=18375) in 0.04 seconds
+0078.322 (0) Table wp_wpmlemails: finishing file(s) (2, 4.2 KB)
+0078.371 (0) Table wp_wpmlfields: Total expected rows (via COUNT): 3
+0078.377 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0078.393 (0) Table wp_wpmlfields: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=2492) in 0.03 seconds
+0078.427 (0) Table wp_wpmlfields: finishing file(s) (2, 0.8 KB)
+0078.474 (0) Table wp_wpmlfieldsforms: Total expected rows (via COUNT): 2
+0078.481 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0078.490 (0) Table wp_wpmlfieldsforms: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1474) in 0.03 seconds
+0078.524 (0) Table wp_wpmlfieldsforms: finishing file(s) (2, 0.6 KB)
+0078.566 (0) Table wp_wpmlfieldslists: Total expected rows (via COUNT): 5
+0078.572 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0078.581 (0) Table wp_wpmlfieldslists: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=828) in 0.02 seconds
+0078.611 (0) Table wp_wpmlfieldslists: finishing file(s) (2, 0.4 KB)
+0078.658 (0) Table wp_wpmlforms: Total expected rows (via COUNT): 1
+0078.664 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0078.674 (0) Table wp_wpmlforms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2175) in 0.03 seconds
+0078.707 (0) Table wp_wpmlforms: finishing file(s) (2, 0.8 KB)
+0078.750 (0) Table wp_wpmlgroups: Total expected rows (via COUNT): 0
+0078.763 (0) Table wp_wpmlgroups: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=596) in 0.02 seconds
+0078.803 (0) Table wp_wpmlgroups: finishing file(s) (2, 0.4 KB)
+0078.847 (0) Table wp_wpmlhistoriesattachments: Total expected rows (via COUNT): 0
+0078.855 (0) Table wp_wpmlhistoriesattachments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=872) in 0.02 seconds
+0078.885 (0) Table wp_wpmlhistoriesattachments: finishing file(s) (2, 0.4 KB)
+0078.931 (0) Table wp_wpmlhistorieslists: Total expected rows (via COUNT): 0
+0078.938 (0) Table wp_wpmlhistorieslists: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=712) in 0.02 seconds
+0078.970 (0) Table wp_wpmlhistorieslists: finishing file(s) (2, 0.4 KB)
+0079.036 (0) Table wp_wpmlhistory: Total expected rows (via COUNT): 2
+0079.041 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0079.055 (0) Table wp_wpmlhistory: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=4241) in 0.04 seconds
+0079.093 (0) Table wp_wpmlhistory: finishing file(s) (2, 1.1 KB)
+0079.142 (0) Table wp_wpmllatestposts: Total expected rows (via COUNT): 0
+0079.156 (0) Table wp_wpmllatestposts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=682) in 0.02 seconds
+0079.192 (0) Table wp_wpmllatestposts: finishing file(s) (2, 0.4 KB)
+0079.238 (0) Table wp_wpmllatestpostssubscriptions: Total expected rows (via COUNT): 0
+0079.246 (0) Table wp_wpmllatestpostssubscriptions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1945) in 0.02 seconds
+0079.276 (0) Table wp_wpmllatestpostssubscriptions: finishing file(s) (2, 0.6 KB)
+0079.325 (0) Table wp_wpmllinks: Total expected rows (via COUNT): 1
+0079.332 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0079.345 (0) Table wp_wpmllinks: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=828) in 0.03 seconds
+0079.376 (0) Table wp_wpmllinks: finishing file(s) (2, 0.5 KB)
+0079.426 (0) Table wp_wpmlmailinglists: Total expected rows (via COUNT): 1
+0079.433 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0079.442 (0) Table wp_wpmlmailinglists: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1898) in 0.03 seconds
+0079.474 (0) Table wp_wpmlmailinglists: finishing file(s) (2, 0.7 KB)
+0079.517 (0) Table wp_wpmloptions: Total expected rows (via COUNT): 1
+0079.522 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0079.531 (0) Table wp_wpmloptions: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=896) in 0.02 seconds
+0079.564 (0) Table wp_wpmloptions: finishing file(s) (2, 0.5 KB)
+0079.610 (0) Table wp_wpmlorders: Total expected rows (via COUNT): 0
+0079.623 (0) Table wp_wpmlorders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1189) in 0.02 seconds
+0079.656 (0) Table wp_wpmlorders: finishing file(s) (2, 0.5 KB)
+0079.696 (0) Table wp_wpmlposts: Total expected rows (via COUNT): 0
+0079.704 (0) Table wp_wpmlposts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=681) in 0.02 seconds
+0079.737 (0) Table wp_wpmlposts: finishing file(s) (2, 0.4 KB)
+0079.783 (0) Table wp_wpmlsubscribermetas: Total expected rows (via COUNT): 0
+0079.791 (0) Table wp_wpmlsubscribermetas: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=835) in 0.02 seconds
+0079.822 (0) Table wp_wpmlsubscribermetas: finishing file(s) (2, 0.4 KB)
+0079.870 (0) Table wp_wpmlsubscribers: Total expected rows (via COUNT): 0
+0079.877 (0) Table wp_wpmlsubscribers: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2131) in 0.02 seconds
+0079.911 (0) Table wp_wpmlsubscribers: finishing file(s) (2, 0.6 KB)
+0079.961 (0) Table wp_wpmlsubscriberslists: Total expected rows (via COUNT): 0
+0079.971 (0) Table wp_wpmlsubscriberslists: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1539) in 0.02 seconds
+0080.005 (0) Table wp_wpmlsubscriberslists: finishing file(s) (2, 0.5 KB)
+0080.055 (0) Table wp_wpmlsubscribersoptions: Total expected rows (via COUNT): 0
+0080.063 (0) Table wp_wpmlsubscribersoptions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=821) in 0.02 seconds
+0080.093 (0) Table wp_wpmlsubscribersoptions: finishing file(s) (2, 0.4 KB)
+0080.144 (0) Table wp_wpmltemplates: Total expected rows (via COUNT): 0
+0080.151 (0) Table wp_wpmltemplates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=781) in 0.02 seconds
+0080.192 (0) Table wp_wpmltemplates: finishing file(s) (2, 0.4 KB)
+0080.255 (0) Table wp_wpmlthemes: Total expected rows (via COUNT): 11
+0080.260 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0080.284 (0) Table wp_wpmlthemes: Rows added in this batch (next record: 11): 11 (uncompressed bytes in this segment=124670) in 0.05 seconds
+0080.329 (0) Table wp_wpmlthemes: finishing file(s) (2, 11.3 KB)
+0080.376 (0) Table wp_wpmlunsubscribes: Total expected rows (via COUNT): 0
+0080.390 (0) Table wp_wpmlunsubscribes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=947) in 0.02 seconds
+0080.422 (0) Table wp_wpmlunsubscribes: finishing file(s) (2, 0.4 KB)
+0080.429 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\laragon\www\travel-car/wp-content/updraft/backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db.gz (line 1925, C:\laragon\www\travel-car\wp-content\plugins\updraftplus\backup.php)
+0080.442 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_options.table.tmpr287971.gz (1/131/fopen): adding to final database dump
+0080.586 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_options.table.gz (2/131/fopen): adding to final database dump
+0080.592 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_users.table.tmpr1101.gz (3/131/fopen): adding to final database dump
+0080.607 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_users.table.gz (4/131/fopen): adding to final database dump
+0080.613 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_usermeta.table.tmpr39262.gz (5/131/fopen): adding to final database dump
+0080.667 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_usermeta.table.gz (6/131/fopen): adding to final database dump
+0080.674 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_actionscheduler_actions.table.tmpr1833.gz (7/131/fopen): adding to final database dump
+0080.682 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_actionscheduler_actions.table.gz (8/131/fopen): adding to final database dump
+0080.687 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/131/fopen): adding to final database dump
+0080.694 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_actionscheduler_claims.table.gz (10/131/fopen): adding to final database dump
+0080.702 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_actionscheduler_groups.table.tmpr9.gz (11/131/fopen): adding to final database dump
+0080.709 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_actionscheduler_groups.table.gz (12/131/fopen): adding to final database dump
+0080.716 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_actionscheduler_logs.table.tmpr4862.gz (13/131/fopen): adding to final database dump
+0080.723 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_actionscheduler_logs.table.gz (14/131/fopen): adding to final database dump
+0080.728 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_commentmeta.table.tmpr0.gz (15/131/fopen): adding to final database dump
+0080.736 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_commentmeta.table.gz (16/131/fopen): adding to final database dump
+0080.742 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_comments.table.tmpr387.gz (17/131/fopen): adding to final database dump
+0080.755 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_comments.table.gz (18/131/fopen): adding to final database dump
+0080.761 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_links.table.tmpr0.gz (19/131/fopen): adding to final database dump
+0080.769 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_links.table.gz (20/131/fopen): adding to final database dump
+0080.775 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_postmeta.table.tmpr320936.gz (21/131/fopen): adding to final database dump
+0082.665 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_postmeta.table.tmpr350638.gz (22/131/fopen): adding to final database dump
+0083.144 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_postmeta.table.gz (23/131/fopen): adding to final database dump
+0083.153 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_posts.table.tmpr34390.gz (24/131/fopen): adding to final database dump
+0084.926 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_posts.table.tmpr42781.gz (25/131/fopen): adding to final database dump
+0085.969 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_posts.table.gz (26/131/fopen): adding to final database dump
+0085.975 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_term_relationships.table.tmpr100001.gz (27/131/fopen): adding to final database dump
+0085.984 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_term_relationships.table.gz (28/131/fopen): adding to final database dump
+0085.990 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_term_taxonomy.table.tmpr6054.gz (29/131/fopen): adding to final database dump
+0085.997 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_term_taxonomy.table.gz (30/131/fopen): adding to final database dump
+0086.004 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_termmeta.table.tmpr25580.gz (31/131/fopen): adding to final database dump
+0086.014 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_termmeta.table.gz (32/131/fopen): adding to final database dump
+0086.020 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_terms.table.tmpr6054.gz (33/131/fopen): adding to final database dump
+0086.031 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_terms.table.gz (34/131/fopen): adding to final database dump
+0086.038 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_category_lookup.table.tmpr1001.gz (35/131/fopen): adding to final database dump
+0086.045 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_category_lookup.table.gz (36/131/fopen): adding to final database dump
+0086.052 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_product_meta_lookup.table.tmpr36853.gz (37/131/fopen): adding to final database dump
+0086.058 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_product_meta_lookup.table.gz (38/131/fopen): adding to final database dump
+0086.064 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_reserved_stock.table.tmpr1.gz (39/131/fopen): adding to final database dump
+0086.071 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_reserved_stock.table.gz (40/131/fopen): adding to final database dump
+0086.077 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (41/131/fopen): adding to final database dump
+0086.085 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_tax_rate_classes.table.gz (42/131/fopen): adding to final database dump
+0086.090 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_woocommerce_order_itemmeta.table.tmpr28.gz (43/131/fopen): adding to final database dump
+0086.098 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_woocommerce_order_itemmeta.table.gz (44/131/fopen): adding to final database dump
+0086.105 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (45/131/fopen): adding to final database dump
+0086.113 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_woocommerce_payment_tokenmeta.table.gz (46/131/fopen): adding to final database dump
+0086.120 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_cartflows_ca_cart_abandonment.table.tmpr1001.gz (47/131/fopen): adding to final database dump
+0086.127 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_cartflows_ca_cart_abandonment.table.gz (48/131/fopen): adding to final database dump
+0086.134 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_cartflows_ca_email_history.table.tmpr3.gz (49/131/fopen): adding to final database dump
+0086.141 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_cartflows_ca_email_history.table.gz (50/131/fopen): adding to final database dump
+0086.147 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_cartflows_ca_email_templates.table.tmpr4.gz (51/131/fopen): adding to final database dump
+0086.154 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_cartflows_ca_email_templates.table.gz (52/131/fopen): adding to final database dump
+0086.159 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_cartflows_ca_email_templates_meta.table.tmpr25.gz (53/131/fopen): adding to final database dump
+0086.167 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_cartflows_ca_email_templates_meta.table.gz (54/131/fopen): adding to final database dump
+0086.176 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_e_events.table.tmpr0.gz (55/131/fopen): adding to final database dump
+0086.186 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_e_events.table.gz (56/131/fopen): adding to final database dump
+0086.193 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_e_submissions.table.tmpr0.gz (57/131/fopen): adding to final database dump
+0086.200 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_e_submissions.table.gz (58/131/fopen): adding to final database dump
+0086.206 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_e_submissions_actions_log.table.tmpr0.gz (59/131/fopen): adding to final database dump
+0086.214 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_e_submissions_actions_log.table.gz (60/131/fopen): adding to final database dump
+0086.220 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_e_submissions_values.table.tmpr0.gz (61/131/fopen): adding to final database dump
+0086.227 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_e_submissions_values.table.gz (62/131/fopen): adding to final database dump
+0086.238 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_jetpack_sync_queue.table.tmpr953.gz (63/131/fopen): adding to final database dump
+0086.246 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_jetpack_sync_queue.table.gz (64/131/fopen): adding to final database dump
+0086.254 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_mclean_refs.table.tmpr1836.gz (65/131/fopen): adding to final database dump
+0086.264 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_mclean_refs.table.gz (66/131/fopen): adding to final database dump
+0086.270 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_mclean_scan.table.tmpr1029.gz (67/131/fopen): adding to final database dump
+0086.278 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_mclean_scan.table.gz (68/131/fopen): adding to final database dump
+0086.285 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_newsletter.table.tmpr4.gz (69/131/fopen): adding to final database dump
+0086.291 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_newsletter.table.gz (70/131/fopen): adding to final database dump
+0086.298 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_newsletter_emails.table.tmpr2.gz (71/131/fopen): adding to final database dump
+0086.305 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_newsletter_emails.table.gz (72/131/fopen): adding to final database dump
+0086.311 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_newsletter_logs.table.tmpr2.gz (73/131/fopen): adding to final database dump
+0086.320 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_newsletter_logs.table.gz (74/131/fopen): adding to final database dump
+0086.326 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_newsletter_sent.table.tmpr1.gz (75/131/fopen): adding to final database dump
+0086.334 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_newsletter_sent.table.gz (76/131/fopen): adding to final database dump
+0086.340 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_newsletter_stats.table.tmpr0.gz (77/131/fopen): adding to final database dump
+0086.347 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_newsletter_stats.table.gz (78/131/fopen): adding to final database dump
+0086.353 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_newsletter_user_logs.table.tmpr4.gz (79/131/fopen): adding to final database dump
+0086.359 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_newsletter_user_logs.table.gz (80/131/fopen): adding to final database dump
+0086.365 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_newsletter_user_meta.table.tmpr0.gz (81/131/fopen): adding to final database dump
+0086.373 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_newsletter_user_meta.table.gz (82/131/fopen): adding to final database dump
+0086.380 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_nextend2_image_storage.table.tmpr0.gz (83/131/fopen): adding to final database dump
+0086.388 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_nextend2_image_storage.table.gz (84/131/fopen): adding to final database dump
+0086.394 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_nextend2_section_storage.table.tmpr10001.gz (85/131/fopen): adding to final database dump
+0086.401 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_nextend2_section_storage.table.gz (86/131/fopen): adding to final database dump
+0086.408 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_nextend2_smartslider3_generators.table.tmpr0.gz (87/131/fopen): adding to final database dump
+0086.415 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_nextend2_smartslider3_generators.table.gz (88/131/fopen): adding to final database dump
+0086.421 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_nextend2_smartslider3_sliders.table.tmpr2.gz (89/131/fopen): adding to final database dump
+0086.427 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_nextend2_smartslider3_sliders.table.gz (90/131/fopen): adding to final database dump
+0086.434 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_nextend2_smartslider3_sliders_xref.table.tmpr1.gz (91/131/fopen): adding to final database dump
+0086.441 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_nextend2_smartslider3_sliders_xref.table.gz (92/131/fopen): adding to final database dump
+0086.447 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_nextend2_smartslider3_slides.table.tmpr3.gz (93/131/fopen): adding to final database dump
+0086.454 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_nextend2_smartslider3_slides.table.gz (94/131/fopen): adding to final database dump
+0086.460 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_pmxi_files.table.tmpr0.gz (95/131/fopen): adding to final database dump
+0086.467 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_pmxi_files.table.gz (96/131/fopen): adding to final database dump
+0086.473 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_pmxi_hash.table.tmpr1.gz (97/131/fopen): adding to final database dump
+0086.480 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_pmxi_hash.table.gz (98/131/fopen): adding to final database dump
+0086.486 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_pmxi_history.table.tmpr0.gz (99/131/fopen): adding to final database dump
+0086.501 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_pmxi_history.table.gz (100/131/fopen): adding to final database dump
+0086.507 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_pmxi_images.table.tmpr156.gz (101/131/fopen): adding to final database dump
+0086.516 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_pmxi_images.table.gz (102/131/fopen): adding to final database dump
+0086.522 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_pmxi_imports.table.tmpr0.gz (103/131/fopen): adding to final database dump
+0086.530 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_pmxi_imports.table.gz (104/131/fopen): adding to final database dump
+0086.536 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_pmxi_posts.table.tmpr0.gz (105/131/fopen): adding to final database dump
+0086.542 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_pmxi_posts.table.gz (106/131/fopen): adding to final database dump
+0086.548 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_pmxi_templates.table.tmpr0.gz (107/131/fopen): adding to final database dump
+0086.555 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_pmxi_templates.table.gz (108/131/fopen): adding to final database dump
+0086.560 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_rank_math_404_logs.table.tmpr0.gz (109/131/fopen): adding to final database dump
+0086.568 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_rank_math_404_logs.table.gz (110/131/fopen): adding to final database dump
+0086.574 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_rank_math_analytics_gsc.table.tmpr107221.gz (111/131/fopen): adding to final database dump
+0086.757 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_rank_math_analytics_gsc.table.tmpr107222.gz (112/131/fopen): adding to final database dump
+0086.764 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_rank_math_analytics_gsc.table.gz (113/131/fopen): adding to final database dump
+0086.771 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_rank_math_analytics_inspections.table.tmpr133.gz (114/131/fopen): adding to final database dump
+0086.778 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_rank_math_analytics_inspections.table.gz (115/131/fopen): adding to final database dump
+0086.785 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_rank_math_analytics_objects.table.tmpr988.gz (116/131/fopen): adding to final database dump
+0086.794 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_rank_math_analytics_objects.table.gz (117/131/fopen): adding to final database dump
+0086.801 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_rank_math_internal_links.table.tmpr150188.gz (118/131/fopen): adding to final database dump
+0086.811 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_rank_math_internal_links.table.gz (119/131/fopen): adding to final database dump
+0086.819 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_rank_math_internal_meta.table.tmpr42688.gz (120/131/fopen): adding to final database dump
+0086.826 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_rank_math_internal_meta.table.gz (121/131/fopen): adding to final database dump
+0086.834 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_rank_math_redirections.table.tmpr0.gz (122/131/fopen): adding to final database dump
+0086.841 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_rank_math_redirections.table.gz (123/131/fopen): adding to final database dump
+0086.848 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_rank_math_redirections_cache.table.tmpr0.gz (124/131/fopen): adding to final database dump
+0086.855 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_rank_math_redirections_cache.table.gz (125/131/fopen): adding to final database dump
+0086.861 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_redirection_404.table.tmpr0.gz (126/131/fopen): adding to final database dump
+0086.868 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_redirection_404.table.gz (127/131/fopen): adding to final database dump
+0086.874 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_redirection_groups.table.tmpr3.gz (128/131/fopen): adding to final database dump
+0086.882 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_redirection_groups.table.gz (129/131/fopen): adding to final database dump
+0086.888 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_redirection_items.table.tmpr36.gz (130/131/fopen): adding to final database dump
+0086.896 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_redirection_items.table.gz (131/131/fopen): adding to final database dump
+0086.902 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_redirection_logs.table.tmpr0.gz (132/131/fopen): adding to final database dump
+0086.909 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_redirection_logs.table.gz (133/131/fopen): adding to final database dump
+0086.916 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_surfer_gsc_traffic.table.tmpr0.gz (134/131/fopen): adding to final database dump
+0086.922 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_surfer_gsc_traffic.table.gz (135/131/fopen): adding to final database dump
+0086.928 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_vehica_messages.table.tmpr0.gz (136/131/fopen): adding to final database dump
+0086.935 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_vehica_messages.table.gz (137/131/fopen): adding to final database dump
+0086.941 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_admin_note_actions.table.tmpr55652.gz (138/131/fopen): adding to final database dump
+0086.949 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_admin_note_actions.table.gz (139/131/fopen): adding to final database dump
+0086.955 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_admin_notes.table.tmpr101.gz (140/131/fopen): adding to final database dump
+0086.973 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_admin_notes.table.gz (141/131/fopen): adding to final database dump
+0086.982 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_customer_lookup.table.tmpr11.gz (142/131/fopen): adding to final database dump
+0086.989 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_customer_lookup.table.gz (143/131/fopen): adding to final database dump
+0086.997 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_download_log.table.tmpr5.gz (144/131/fopen): adding to final database dump
+0087.003 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_download_log.table.gz (145/131/fopen): adding to final database dump
+0087.009 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_order_addresses.table.tmpr4.gz (146/131/fopen): adding to final database dump
+0087.016 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_order_addresses.table.gz (147/131/fopen): adding to final database dump
+0087.022 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (148/131/fopen): adding to final database dump
+0087.028 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_order_coupon_lookup.table.gz (149/131/fopen): adding to final database dump
+0087.037 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_order_operational_data.table.tmpr16.gz (150/131/fopen): adding to final database dump
+0087.044 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_order_operational_data.table.gz (151/131/fopen): adding to final database dump
+0087.054 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_order_product_lookup.table.tmpr4.gz (152/131/fopen): adding to final database dump
+0087.060 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_order_product_lookup.table.gz (153/131/fopen): adding to final database dump
+0087.067 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_order_stats.table.tmpr37379.gz (154/131/fopen): adding to final database dump
+0087.074 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_order_stats.table.gz (155/131/fopen): adding to final database dump
+0087.080 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (156/131/fopen): adding to final database dump
+0087.086 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_order_tax_lookup.table.gz (157/131/fopen): adding to final database dump
+0087.092 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_orders.table.tmpr37379.gz (158/131/fopen): adding to final database dump
+0087.100 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_orders.table.gz (159/131/fopen): adding to final database dump
+0087.105 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_orders_meta.table.tmpr57.gz (160/131/fopen): adding to final database dump
+0087.112 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_orders_meta.table.gz (161/131/fopen): adding to final database dump
+0087.121 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_product_attributes_lookup.table.tmpr1.gz (162/131/fopen): adding to final database dump
+0087.128 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_product_attributes_lookup.table.gz (163/131/fopen): adding to final database dump
+0087.135 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_product_download_directories.table.tmpr4.gz (164/131/fopen): adding to final database dump
+0087.142 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_product_download_directories.table.gz (165/131/fopen): adding to final database dump
+0087.150 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_rate_limits.table.tmpr0.gz (166/131/fopen): adding to final database dump
+0087.156 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_rate_limits.table.gz (167/131/fopen): adding to final database dump
+0087.163 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_webhooks.table.tmpr0.gz (168/131/fopen): adding to final database dump
+0087.170 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wc_webhooks.table.gz (169/131/fopen): adding to final database dump
+0087.176 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (170/131/fopen): adding to final database dump
+0087.184 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_woocommerce_api_keys.table.gz (171/131/fopen): adding to final database dump
+0087.193 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr0.gz (172/131/fopen): adding to final database dump
+0087.200 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_woocommerce_attribute_taxonomies.table.gz (173/131/fopen): adding to final database dump
+0087.206 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr4.gz (174/131/fopen): adding to final database dump
+0087.214 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (175/131/fopen): adding to final database dump
+0087.220 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_woocommerce_log.table.tmpr0.gz (176/131/fopen): adding to final database dump
+0087.227 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_woocommerce_log.table.gz (177/131/fopen): adding to final database dump
+0087.234 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_woocommerce_order_items.table.tmpr4.gz (178/131/fopen): adding to final database dump
+0087.240 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_woocommerce_order_items.table.gz (179/131/fopen): adding to final database dump
+0087.247 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (180/131/fopen): adding to final database dump
+0087.254 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_woocommerce_payment_tokens.table.gz (181/131/fopen): adding to final database dump
+0087.260 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_woocommerce_sessions.table.tmpr0.gz (182/131/fopen): adding to final database dump
+0087.269 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_woocommerce_sessions.table.gz (183/131/fopen): adding to final database dump
+0087.275 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr0.gz (184/131/fopen): adding to final database dump
+0087.283 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_woocommerce_shipping_zone_locations.table.gz (185/131/fopen): adding to final database dump
+0087.290 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr0.gz (186/131/fopen): adding to final database dump
+0087.298 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_woocommerce_shipping_zone_methods.table.gz (187/131/fopen): adding to final database dump
+0087.305 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_woocommerce_shipping_zones.table.tmpr0.gz (188/131/fopen): adding to final database dump
+0087.311 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_woocommerce_shipping_zones.table.gz (189/131/fopen): adding to final database dump
+0087.319 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (190/131/fopen): adding to final database dump
+0087.325 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_woocommerce_tax_rate_locations.table.gz (191/131/fopen): adding to final database dump
+0087.332 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_woocommerce_tax_rates.table.tmpr0.gz (192/131/fopen): adding to final database dump
+0087.338 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_woocommerce_tax_rates.table.gz (193/131/fopen): adding to final database dump
+0087.345 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpfm_backup.table.tmpr0.gz (194/131/fopen): adding to final database dump
+0087.353 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpfm_backup.table.gz (195/131/fopen): adding to final database dump
+0087.359 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpforms_logs.table.tmpr0.gz (196/131/fopen): adding to final database dump
+0087.367 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpforms_logs.table.gz (197/131/fopen): adding to final database dump
+0087.373 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpforms_payment_meta.table.tmpr0.gz (198/131/fopen): adding to final database dump
+0087.380 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpforms_payment_meta.table.gz (199/131/fopen): adding to final database dump
+0087.392 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpforms_payments.table.tmpr0.gz (200/131/fopen): adding to final database dump
+0087.399 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpforms_payments.table.gz (201/131/fopen): adding to final database dump
+0087.405 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpforms_tasks_meta.table.tmpr6.gz (202/131/fopen): adding to final database dump
+0087.411 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpforms_tasks_meta.table.gz (203/131/fopen): adding to final database dump
+0087.418 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlautoresponderemails.table.tmpr0.gz (204/131/fopen): adding to final database dump
+0087.425 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlautoresponderemails.table.gz (205/131/fopen): adding to final database dump
+0087.432 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlautoresponders.table.tmpr0.gz (206/131/fopen): adding to final database dump
+0087.440 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlautoresponders.table.gz (207/131/fopen): adding to final database dump
+0087.446 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlautorespondersforms.table.tmpr0.gz (208/131/fopen): adding to final database dump
+0087.455 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlautorespondersforms.table.gz (209/131/fopen): adding to final database dump
+0087.461 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlautoresponderslists.table.tmpr0.gz (210/131/fopen): adding to final database dump
+0087.469 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlautoresponderslists.table.gz (211/131/fopen): adding to final database dump
+0087.475 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlbounces.table.tmpr0.gz (212/131/fopen): adding to final database dump
+0087.482 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlbounces.table.gz (213/131/fopen): adding to final database dump
+0087.487 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlclicks.table.tmpr2.gz (214/131/fopen): adding to final database dump
+0087.494 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlclicks.table.gz (215/131/fopen): adding to final database dump
+0087.501 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlcontents.table.tmpr0.gz (216/131/fopen): adding to final database dump
+0087.507 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlcontents.table.gz (217/131/fopen): adding to final database dump
+0087.518 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlcountries.table.tmpr244.gz (218/131/fopen): adding to final database dump
+0087.525 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlcountries.table.gz (219/131/fopen): adding to final database dump
+0087.532 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlemails.table.tmpr69.gz (220/131/fopen): adding to final database dump
+0087.539 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlemails.table.gz (221/131/fopen): adding to final database dump
+0087.545 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlfields.table.tmpr4.gz (222/131/fopen): adding to final database dump
+0087.552 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlfields.table.gz (223/131/fopen): adding to final database dump
+0087.557 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlfieldsforms.table.tmpr3.gz (224/131/fopen): adding to final database dump
+0087.564 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlfieldsforms.table.gz (225/131/fopen): adding to final database dump
+0087.571 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlfieldslists.table.tmpr6.gz (226/131/fopen): adding to final database dump
+0087.578 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlfieldslists.table.gz (227/131/fopen): adding to final database dump
+0087.587 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlforms.table.tmpr2.gz (228/131/fopen): adding to final database dump
+0087.594 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlforms.table.gz (229/131/fopen): adding to final database dump
+0087.602 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlgroups.table.tmpr0.gz (230/131/fopen): adding to final database dump
+0087.609 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlgroups.table.gz (231/131/fopen): adding to final database dump
+0087.615 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlhistoriesattachments.table.tmpr0.gz (232/131/fopen): adding to final database dump
+0087.623 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlhistoriesattachments.table.gz (233/131/fopen): adding to final database dump
+0087.629 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlhistorieslists.table.tmpr0.gz (234/131/fopen): adding to final database dump
+0087.637 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlhistorieslists.table.gz (235/131/fopen): adding to final database dump
+0087.642 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlhistory.table.tmpr3.gz (236/131/fopen): adding to final database dump
+0087.651 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlhistory.table.gz (237/131/fopen): adding to final database dump
+0087.657 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmllatestposts.table.tmpr0.gz (238/131/fopen): adding to final database dump
+0087.665 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmllatestposts.table.gz (239/131/fopen): adding to final database dump
+0087.671 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmllatestpostssubscriptions.table.tmpr0.gz (240/131/fopen): adding to final database dump
+0087.678 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmllatestpostssubscriptions.table.gz (241/131/fopen): adding to final database dump
+0087.685 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmllinks.table.tmpr2.gz (242/131/fopen): adding to final database dump
+0087.691 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmllinks.table.gz (243/131/fopen): adding to final database dump
+0087.697 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlmailinglists.table.tmpr2.gz (244/131/fopen): adding to final database dump
+0087.704 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlmailinglists.table.gz (245/131/fopen): adding to final database dump
+0087.710 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmloptions.table.tmpr2.gz (246/131/fopen): adding to final database dump
+0087.718 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmloptions.table.gz (247/131/fopen): adding to final database dump
+0087.723 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlorders.table.tmpr0.gz (248/131/fopen): adding to final database dump
+0087.730 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlorders.table.gz (249/131/fopen): adding to final database dump
+0087.737 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlposts.table.tmpr0.gz (250/131/fopen): adding to final database dump
+0087.743 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlposts.table.gz (251/131/fopen): adding to final database dump
+0087.751 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlsubscribermetas.table.tmpr0.gz (252/131/fopen): adding to final database dump
+0087.758 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlsubscribermetas.table.gz (253/131/fopen): adding to final database dump
+0087.765 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlsubscribers.table.tmpr0.gz (254/131/fopen): adding to final database dump
+0087.773 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlsubscribers.table.gz (255/131/fopen): adding to final database dump
+0087.779 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlsubscriberslists.table.tmpr0.gz (256/131/fopen): adding to final database dump
+0087.787 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlsubscriberslists.table.gz (257/131/fopen): adding to final database dump
+0087.793 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlsubscribersoptions.table.tmpr0.gz (258/131/fopen): adding to final database dump
+0087.800 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlsubscribersoptions.table.gz (259/131/fopen): adding to final database dump
+0087.806 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmltemplates.table.tmpr0.gz (260/131/fopen): adding to final database dump
+0087.812 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmltemplates.table.gz (261/131/fopen): adding to final database dump
+0087.819 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlthemes.table.tmpr12.gz (262/131/fopen): adding to final database dump
+0087.828 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlthemes.table.gz (263/131/fopen): adding to final database dump
+0087.836 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlunsubscribes.table.tmpr0.gz (264/131/fopen): adding to final database dump
+0087.842 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db-table-wp_wpmlunsubscribes.table.gz (265/131/fopen): adding to final database dump
+0087.906 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db.gz: finished writing out complete database file (28343.4 KB)
+0089.314 (0) Total database tables backed up: 131 (backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db.gz, size: 29023771, sha1: 15e6c2956099f3e8bd2da82982511ea6598af64c, sha256: 093f48c4008d8cc2e2a38f6f1f1717b7580ad633ba74661e146c109e676a0ebe)
+0089.346 (0) backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db.gz: db: This file has not yet been successfully uploaded: will queue
+0089.352 (0) Saving backup history. Total backup size: 27.7 MB
+0089.367 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0089.384 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0089.389 (0) No remote despatch: user chose no remote backup service
+0089.396 (0) Recording as successfully uploaded: backup_2025-03-21-1003_Travel_Cars_New_Zealand_cd073ede1356-db.gz
+0089.408 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0089.413 (0) Resume backup (cd073ede1356, 0): finish run
+0089.429 (0) Decremented the semaphore (fd) by 1
+0089.438 (0) Semaphore (fd) unlocked
+0089.443 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0089.466 (0) No email will/can be sent - the user has not configured an email address.
+0089.472 (0) The backup succeeded and is now complete

@@ -1,0 +1,22 @@
+{
+  "name": "io.Vehica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^9.2.0",
+    "gulp-postcss": "^8.0.0",
+    "in-view": "^0.6.1",
+    "tram": "^0.8.3",
+    "vuedraggable": "^2.16.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

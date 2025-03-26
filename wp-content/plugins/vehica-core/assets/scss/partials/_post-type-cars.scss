@@ -1,0 +1,61 @@
+.post-type-vehica_car .vehica-edit {
+  input[type=color],
+  input[type=date],
+  input[type=datetime-local],
+  input[type=datetime],
+  input[type=email],
+  input[type=month],
+  input[type=number],
+  input[type=password],
+  input[type=search],
+  input[type=tel],
+  input[type=text]:not(.mx-input),
+  input[type=time],
+  input[type=url],
+  input[type=week],
+  select,
+  textarea {
+    @include field-style;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .07) !important;
+    &::placeholder {
+      color: #ccc !important;
+    }
+  }
+  .selectize-input {
+    input::placeholder {
+      color: #ccc !important;
+    }
+  }
+  .selectize-control.single .selectize-input:after {
+    right: 6px !important;
+    border-color: #797e83 transparent transparent transparent !important;
+  }
+  .selectize-input {
+    border: 1px solid #ccc !important;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07) !important;
+  }
+  input[type="text"] {
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 100%;
+    margin: 0 !important;
+  }
+  .selectize-dropdown, .selectize-input, .selectize-input input {
+    line-height: 16px !important;
+  }
+  .mx-input-wrapper input {
+    line-height: 28px !important;
+    margin: 0 !important;
+  }
+  .multi .selectize-input,
+  .items .selectize-input {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  input[placeholder="Choose from the list or add new"] {
+    line-height: 18px !important;
+  }
+  input[type=text]:not(.mx-input) {
+    font-size: 13px !important;
+  }
+}

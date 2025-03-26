@@ -1,0 +1,18 @@
+@mixin field-style {
+  font-family: $font-family-text !important;
+  background-color: #fff !important;
+  border: 1px solid $color-grey-8 !important;
+  border-radius: $rounded-normal !important;
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.08) !important;
+  outline: 0 solid transparent !important;
+  max-width: 388px !important;
+  width: 100% !important;
+  padding: 3px 9px !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  margin-bottom: 6px !important;
+  color: #102A43 !important;
+  &::placeholder {
+    color: $color-grey-7 !important;
+  }
+}

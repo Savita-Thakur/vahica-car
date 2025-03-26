@@ -1,0 +1,58 @@
+.vehica-gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 12px 0 0;
+}
+
+.vehica-gallery__single {
+  width: 160px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px !important;
+  @include cursor-grab;
+  .fa-trash {
+    @include trash;
+    top: 12px;
+    right: 12px;
+    z-index: 2;
+  }
+}
+
+.vehica-gallery__single__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  width: 160px;
+  overflow: hidden;
+  background: #f1f1f1;
+  border-radius: 4px;
+  img {
+    max-height: 120px;
+    max-width: 200%;
+    height: auto;
+  }
+}
+
+.vehica-gallery__add-images {
+  margin-top: 0px;
+  cursor: pointer;
+  display: inline-block;
+  height: 36px;
+  min-width: 148px;
+  border-radius: 4px;
+  background: #0085ba;
+  color: #fff;
+}
+
+.vehica-gallery__attachment-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0 10px;
+  font-size: 12px;
+  margin-top: 10px;
+}

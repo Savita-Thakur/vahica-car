@@ -1,0 +1,34 @@
+.vehica-field {
+  @include clearfix;
+  margin-bottom: 12px;
+  .material-icons {
+    font-size: $font-size-normal;
+    position: relative;
+    margin-right: 0px;
+    top: 2px;
+  }
+}
+
+.vehica-field__info {
+  max-width: 384px;
+}
+
+.vehica-field--checkbox {
+  margin-bottom: 24px;
+  @include clearfix;
+}
+
+.vehica-field__back {
+  margin-top: -12px;
+  margin-bottom: 24px;
+  font-size: $font-size-normal;
+  color: $color-grey-3;
+  i {
+    font-size: $font-size-small;
+    color: $color-grey-5;
+  }
+}
+
+.vehica-field__col-2 {
+  @include clearfix;
+}

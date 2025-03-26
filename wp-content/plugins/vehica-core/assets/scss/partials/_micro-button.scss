@@ -1,0 +1,29 @@
+.vehica-micro-button {
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  line-height: 1em;
+  padding: 6px 9px !important;
+  font-size: 12px !important;
+  box-shadow: none !important;
+  border: 0px solid transparent !important;
+  border-radius: $rounded-medium;
+  background: $color-grey-2 !important;
+  color: $color-grey-9 !important;
+  &:hover {
+    background: $color-grey-1 !important;
+  }
+  i {
+    margin-right: 3px;
+  }
+}
+
+.vehica-micro-button--ghost {
+  background: transparent !important;
+  color: $color-grey-5 !important;
+  margin: 0 !important;
+  &:hover {
+    color: $color-grey-1 !important;
+    background: transparent !important;
+  }
+}

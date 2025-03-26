@@ -1,0 +1,26 @@
+.vehica-user-field__image {
+  position: relative;
+  max-width: 200px;
+  img {
+    display: block;
+    max-width: 100%;
+  }
+  .fa-trash {
+    @include trash;
+  }
+}
+
+.vehica-user__map-reset-button {
+  background: transparent;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.vehica-user__map-click-checkbox {
+  margin-top: -2px !important;
+}
+
+.vehica-user__map-size {
+  height: 400px;
+  width: 400px;
+}

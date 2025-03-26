@@ -1,0 +1,141 @@
+/*
+Theme Name: Motors Child
+Theme URI: http://motors.stylemixthemes.com/
+Template: motors
+Author: StylemixThemes
+Author URI: https://stylemixthemes.com/
+Description: Automotive, Cars, Vehicle, Boat Dealership, Classifieds WordPress Theme by StylemixThemes.
+Tags: blue,black,red,dark,one-column,two-columns,three-columns,four-columns,left-sidebar,right-sidebar,fixed-layout,fluid-layout,responsive-layout,flexible-header,custom-background,custom-colors,custom-header,custom-menu,editor-style,sticky-post,theme-options
+Version: 5.2.1.1653591722
+Updated: 2022-05-26 19:02:02
+
+*/
+
+/* .page-id-1718  */
+
+.page-id-1718.stm_motors_listing_types_multilisting_active.stm-template-listing .stm-login-register-form .stm-register-form form{
+    border-top: 1px!important;
+}
+
+.page-id-1718.stm_motors_listing_types_multilisting_active.stm-template-listing .stm-login-form form {
+    background-color: rgba(255,201,21) !important;
+}
+
+.page-id-1718.stm_motors_listing_types_multilisting_active.stm-template-listing .stm-login-form .form-group h4,
+.page-id-1718.stm_motors_listing_types_multilisting_active.stm-template-listing .stm-login-form .form-group span,
+.page-id-1718 .stm-forgot-password a{
+    color: #232628!important;
+}
+
+
+.page-id-1718.stm-template-listing .stm-login-form input[type=submit]{
+        border: 2px solid white;
+        background: white;
+        color: black !important;
+        background-color: #ffc915 !important;
+        box-shadow: 0 2px 0 #ffc915 !important;
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: 700;
+}
+/* shital css start here */
+#wrapper #header .header-inner-content .listing-service-right .listing-menu > li.menu-item > a{  font-size: 18px !important; }
+.stm-layout-header-listing #wrapper .header-listing .listing_add_cart > div{
+font-size: 14px; }
+.relpost-block-single{ padding: 0px; border: none !important; }
+.relpost-block-single:hover{ background-color: transparent !important; }
+
+.stm-single-post h1.post-title {
+  font-family: "Roboto", Sans-serif !important;
+  font-size: 33px !important;
+  font-weight: 600 !important;
+  text-align: center !important;
+  line-height: 1.4em !important;
+  margin-bottom: 35px !important;
+}
+div.relpost-block-single-image{ 
+    height: 160px !important; 
+    background-size: cover !important;
+    margin-bottom: 15px;
+}
+.relpost-block-single-text{
+    box-shadow: 0 1px 6px rgba(35, 38, 40, 0.4);
+    background-color: rgba(255,201,21);
+    padding: 16px 20px;
+}
+.relpost-custom-block-single{ width: 290px !important; }
+.relpost-block-single:last-child{ margin-right: 0px; }
+body{ color: #000 !important; }
+/*.relpost-custom-block-single{ width: 265px !important; height: 218px !important;}
+.relpost-block-single-image {
+  height: 150px!important;
+ }*/
+/* shital css end here */
+
+.single-post .blog-meta{
+    display: none!important;
+}
+
+.single-post .post-thumbnail{
+    margin-bottom: 45px;
+}
+
+.single-listing.adsense {
+    height: 100px;
+}
+
+.stm-listing-car-dealer-info .dealer-phone i {
+    color: #1bc744;
+    font-size: 15px;
+}
+.stm-listing-car-dealer-info .dealer-phone a{
+    margin-bottom: -1px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -.5px;
+    color: #232628!important;
+    padding-left: 5px;
+}.stm-listing-car-dealer-info .dealer-phone a:hover{
+    opacity: .8;
+}
+
+.stm-listing-car-dealer-info {
+    background-color: #ffc915 !important;
+    border: none!important;
+    padding: 30px 22px !important;
+    box-shadow: none!important;
+}
+
+
+body:not(.home) .car-meta-bottom li{
+    display: none!important
+}
+
+@media (max-width: 768px){
+.navbar.navbar-transparent {
+    background: #000;
+    color: #555;
+}
+.navbar {
+    background-color: #000;}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar .navbar-nav .dropdown .dropdown-menu li a:hover, .navbar .navbar-nav .dropdown .dropdown-menu li a:focus, .navbar button.navbar-toggle:hover, .navbar .navbar-nav li:hover > a i {
+    color: #56a854;
+}
+.navbar.navbar-fixed-top .navbar-collapse{    margin-top: 120px;}
+}
+.checkout.woocommerce-checkout #customer_details, #payment.woocommerce-checkout-payment .wc_payment_methods{
+	display:none !important;
+}
+
+.stm-register-form span {
+	font-size: 13px !important;
+		
+}
+
+.stm-register-form span a{
+	font-weight: bold;
+	text-transform: uppercase;
+}span.wpcf7-form-control-wrap.author_email{
+    display: none;
+}

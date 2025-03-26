@@ -1,0 +1,21 @@
+.vehica-localization {
+  display: flex;
+  margin-top: 16px;
+}
+
+.vehica-localization__left {
+  width: 50%;
+  padding-right: 16px;
+}
+
+.vehica-localization__right {
+  width: 50%;
+  padding-right: 32px;
+}
+
+.vehica-localization__right__inner {
+  padding: 24px;
+  background: #fff;
+  border-radius: $rounded-large;
+  box-shadow: $shadow-s;
+}

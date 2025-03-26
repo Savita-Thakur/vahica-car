@@ -1,0 +1,53 @@
+.vehica-add-new-field {
+  width: 544px;
+  border-radius: $rounded-medium;
+  box-shadow: $shadow-s;
+  margin-top: 24px;
+  margin-bottom: 12px;
+  font-size: $font-size-normal;
+  @include clearfix();
+  background: #fff;
+  i {
+    color: inherit;
+  }
+  input[type=text]:not(.mx-input),
+  select {
+    @include field-style;
+    float: left;
+    margin-bottom: 6px !important;
+    max-width: 46% !important;
+    margin-right: 12px;
+    padding: 8px 9px !important;
+    line-height: 18px !important;
+    @include placeholder {
+      color: $color-grey-1 !important;
+    }
+  }
+}
+
+.vehica-add-new-field__inner {
+  padding: 12px 0 12px 12px;
+}
+
+.vehica-add-new-field__info {
+  display: none;
+  border-top: 1px solid $color-grey-9;
+  margin-top: 18px;
+  padding: 12px 0 6px 0;
+  font-size: 14px;
+  line-height: 16px;
+  a {
+    color: $color-accent-5;
+    font-weight: 700;
+    i {
+      position: relative;
+      top: 2px;
+      font-size: 14px;
+      line-height: 16px;
+      color: $color-accent-5;
+    }
+    &:hover {
+      color: $color-accent-5 !important;
+    }
+  }
+}

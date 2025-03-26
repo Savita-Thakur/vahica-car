@@ -1,0 +1,858 @@
+0000.033 () Opened log file at time: Mon, 17 Mar 2025 09:51:02 +0000 on http://travel-car.test
+0000.035 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.2 WP: 6.7.2 PHP: 8.1.10 (apache2handler, Windows NT DESKTOP-MMI9QA2 10.0 build 19045 (Windows 10) AMD64) MySQL: 8.0.30 (max packet size=536870912) WPLANG: en_US Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 42.3M | 66M) multisite: N openssl: OpenSSL 1.1.1q  5 Jul 2022 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.038 () Free space on disk containing Updraft's temporary directory: 73538.1 MB
+0000.221 () Restore setup, now closing connection and starting restore over AJAX.
+0000.013 () Opened log file at time: Mon, 17 Mar 2025 09:51:05 +0000 on http://travel-car.test
+0000.015 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.2 WP: 6.7.2 PHP: 8.1.10 (apache2handler, Windows NT DESKTOP-MMI9QA2 10.0 build 19045 (Windows 10) AMD64) MySQL: 8.0.30 (max packet size=536870912) WPLANG: en_US Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 38.3M | 56M) multisite: N openssl: OpenSSL 1.1.1q  5 Jul 2022 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.016 () Free space on disk containing Updraft's temporary directory: 73537.9 MB
+0000.081 () Ensuring WP_Filesystem is setup for a restore
+0000.094 () WP_Filesystem is setup and ready for a restore
+0000.115 () Restore job started. Entities to restore: plugins, themes, db. Restore options: {"updraft_restorer_replacesiteurl":"1","include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_actionscheduler_actions","wp_actionscheduler_claims","wp_actionscheduler_groups","wp_actionscheduler_logs","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_wc_category_lookup","wp_wc_product_meta_lookup","wp_wc_reserved_stock","wp_wc_tax_rate_classes","wp_woocommerce_order_itemmeta","wp_woocommerce_payment_tokenmeta","wp_cartflows_ca_cart_abandonment","wp_cartflows_ca_email_history","wp_cartflows_ca_email_templates","wp_cartflows_ca_email_templates_meta","wp_e_events","wp_e_submissions","wp_e_submissions_actions_log","wp_e_submissions_values","wp_jetpack_sync_queue","wp_mclean_refs","wp_mclean_scan","wp_newsletter","wp_newsletter_emails","wp_newsletter_logs","wp_newsletter_sent","wp_newsletter_stats","wp_newsletter_user_logs","wp_newsletter_user_meta","wp_nextend2_image_storage","wp_nextend2_section_storage","wp_nextend2_smartslider3_generators","wp_nextend2_smartslider3_sliders","wp_nextend2_smartslider3_sliders_xref","wp_nextend2_smartslider3_slides","wp_pmxi_files","wp_pmxi_hash","wp_pmxi_history","wp_pmxi_images","wp_pmxi_imports","wp_pmxi_posts","wp_pmxi_templates","wp_rank_math_404_logs","wp_rank_math_analytics_gsc","wp_rank_math_analytics_inspections","wp_rank_math_analytics_objects","wp_rank_math_internal_links","wp_rank_math_internal_meta","wp_rank_math_redirections","wp_rank_math_redirections_cache","wp_redirection_404","wp_redirection_groups","wp_redirection_items","wp_redirection_logs","wp_surfer_gsc_traffic","wp_vehica_messages","wp_wc_admin_note_actions","wp_wc_admin_notes","wp_wc_customer_lookup","wp_wc_download_log","wp_wc_order_addresses","wp_wc_order_coupon_lookup","wp_wc_order_operational_data","wp_wc_order_product_lookup","wp_wc_order_stats","wp_wc_order_tax_lookup","wp_wc_orders","wp_wc_orders_meta","wp_wc_product_attributes_lookup","wp_wc_product_download_directories","wp_wc_rate_limits","wp_wc_webhooks","wp_woocommerce_api_keys","wp_woocommerce_attribute_taxonomies","wp_woocommerce_downloadable_product_permissions","wp_woocommerce_log","wp_woocommerce_order_items","wp_woocommerce_payment_tokens","wp_woocommerce_sessions","wp_woocommerce_shipping_zone_locations","wp_woocommerce_shipping_zone_methods","wp_woocommerce_shipping_zones","wp_woocommerce_tax_rate_locations","wp_woocommerce_tax_rates","wp_wpfm_backup","wp_wpforms_logs","wp_wpforms_payment_meta","wp_wpforms_payments","wp_wpforms_tasks_meta","wp_wpmlautoresponderemails","wp_wpmlautoresponders","wp_wpmlautorespondersforms","wp_wpmlautoresponderslists","wp_wpmlbounces","wp_wpmlclicks","wp_wpmlcontents","wp_wpmlcountries","wp_wpmlemails","wp_wpmlfields","wp_wpmlfieldsforms","wp_wpmlfieldslists","wp_wpmlforms","wp_wpmlgroups","wp_wpmlhistoriesattachments","wp_wpmlhistorieslists","wp_wpmlhistory","wp_wpmllatestposts","wp_wpmllatestpostssubscriptions","wp_wpmllinks","wp_wpmlmailinglists","wp_wpmloptions","wp_wpmlorders","wp_wpmlposts","wp_wpmlsubscribermetas","wp_wpmlsubscribers","wp_wpmlsubscriberslists","wp_wpmlsubscribersoptions","wp_wpmltemplates","wp_wpmlthemes","wp_wpmlunsubscribes"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.146 () PHP event: code E_WARNING: mkdir(): File exists (line 558, C:\laragon\www\travel-car\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.241 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.255 () Entity: db
+0000.255 () restore_backup(backup_file=backup_2024-07-29-1125_Travel_Cars_New_Zealand_4b8e16cd9948-db.gz, type=db, info=a:0:{}, last_one=)
+0000.259 () Unpacking backup... (backup_2024-07-29-1125_Travel_Cars_New_Zealand_4b8e16cd9948-db.gz, 30.3 Mb)
+0000.261 () PHP event: code E_WARNING: mkdir(): File exists (line 558, C:\laragon\www\travel-car\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.615 () Database successfully unpacked
+0000.618 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.661 () Using direct MySQL access; value of use_mysqli is: 1
+0000.665 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0000.898 () Max packet size: 512 MB
+0000.899 () Entering maintenance mode
+0000.899 () Enabling Maintenance mode&#8230;
+0000.946 () Backup of: https://travelcarsnz.com
+0001.016 () Content URL: https://travelcarsnz.com/wp-content
+0001.017 () Uploads URL: https://travelcarsnz.com/wp-content/uploads
+0001.017 () Old table prefix: wp_
+0001.018 () Old ABSPATH: /home/u315118698/domains/travelcarsnz.com/public_html/
+0001.019 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0001.020 () Site information: multisite=0
+0001.020 () Site information: sql_mode=NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0001.024 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0001.025 () New table prefix: xy_
+0001.040 () Processing table (InnoDB): wp_options - will restore as: xy_options
+0002.237 () Atomic restore: dropping original table (wp_options)
+0002.303 () Atomic restore: renaming new table (xy_options) to final table name (wp_options)
+0002.341 () Restoring prior UD configuration (table: wp_options; keys: 102)
+0002.846 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, C:\laragon\www\travel-car\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0002.846 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, C:\laragon\www\travel-car\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0002.847 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 169, C:\laragon\www\travel-car\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0002.848 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, C:\laragon\www\travel-car\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0002.849 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, C:\laragon\www\travel-car\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0002.849 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 169, C:\laragon\www\travel-car\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0002.935 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, C:\laragon\www\travel-car\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0002.977 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, C:\laragon\www\travel-car\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0002.985 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, C:\laragon\www\travel-car\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0003.130 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 267, C:\laragon\www\travel-car\wp-content\plugins\updraftplus\options.php)
+0003.135 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 267, C:\laragon\www\travel-car\wp-content\plugins\updraftplus\options.php)
+0003.474 () Search and replacing table: wp_options: rows: 1245
+0003.569 () Incomplete object detected in database: stdClass; Search and replace will be skipped for these entries
+0003.700 () Incomplete object detected in database: Elementor\Core\Logger\Items\JS; Search and replace will be skipped for these entries
+0003.700 () Incomplete object detected in database: Elementor\Core\Logger\Items\PHP; Search and replace will be skipped for these entries
+0003.841 () Incomplete object detected in database: WP_Error; Search and replace will be skipped for these entries
+0004.118 () Incomplete object detected in database: WP_User; Search and replace will be skipped for these entries
+0004.200 () Incomplete object detected in database: WpOrg\Requests\Utility\CaseInsensitiveDictionary; Search and replace will be skipped for these entries
+0004.200 () Incomplete object detected in database: WP_Http_Cookie; Search and replace will be skipped for these entries
+0004.200 () Incomplete object detected in database: WP_HTTP_Requests_Response; Search and replace will be skipped for these entries
+0004.245 () Incomplete object detected in database: TNP_Subscription; Search and replace will be skipped for these entries
+0004.386 () Processing table (InnoDB): wp_users - will restore as: xy_users
+0004.716 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0004.737 () Atomic restore: dropping original table (wp_users)
+0004.796 () Atomic restore: renaming new table (xy_users) to final table name (wp_users)
+0004.854 () Search and replacing table: wp_users: rows: 911
+0004.950 () Processing table (InnoDB): wp_usermeta - will restore as: xy_usermeta
+0020.633 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0020.652 () Atomic restore: dropping original table (wp_usermeta)
+0020.703 () Atomic restore: renaming new table (xy_usermeta) to final table name (wp_usermeta)
+0020.756 () Search and replacing table: wp_usermeta: rows: 22878
+0020.833 () Incomplete object detected in database: Vehica\Core\Collection; Search and replace will be skipped for these entries
+0021.068 () Searching and replacing reached row: 5000
+0021.447 () Searching and replacing reached row: 10000
+0021.924 () Searching and replacing reached row: 15000
+0022.328 () Searching and replacing reached row: 20000
+0022.588 () Processing table (InnoDB): wp_actionscheduler_actions - will restore as: xy_actionscheduler_actions
+0022.879 () Atomic restore: dropping original table (wp_actionscheduler_actions)
+0022.886 () Atomic restore: renaming new table (xy_actionscheduler_actions) to final table name (wp_actionscheduler_actions)
+0022.969 () Search and replacing table: wp_actionscheduler_actions: rows: 164
+0022.980 () Incomplete object detected in database: ActionScheduler_NullSchedule; Search and replace will be skipped for these entries
+0022.980 () Incomplete object detected in database: ActionScheduler_SimpleSchedule; Search and replace will be skipped for these entries
+0022.981 () Incomplete object detected in database: ActionScheduler_IntervalSchedule; Search and replace will be skipped for these entries
+0023.015 () Processing table (InnoDB): wp_actionscheduler_claims - will restore as: xy_actionscheduler_claims
+0023.109 () Atomic restore: dropping original table (wp_actionscheduler_claims)
+0023.117 () Atomic restore: renaming new table (xy_actionscheduler_claims) to final table name (wp_actionscheduler_claims)
+0023.167 () Search and replacing table: wp_actionscheduler_claims: rows: 0
+0023.168 () Processing table (InnoDB): wp_actionscheduler_groups - will restore as: xy_actionscheduler_groups
+0023.263 () Database queries processed: 50 in 22.58 seconds
+0023.284 () Atomic restore: dropping original table (wp_actionscheduler_groups)
+0023.293 () Atomic restore: renaming new table (xy_actionscheduler_groups) to final table name (wp_actionscheduler_groups)
+0023.351 () Search and replacing table: wp_actionscheduler_groups: rows: 8
+0023.354 () Processing table (InnoDB): wp_actionscheduler_logs - will restore as: xy_actionscheduler_logs
+0023.538 () Atomic restore: dropping original table (wp_actionscheduler_logs)
+0023.544 () Atomic restore: renaming new table (xy_actionscheduler_logs) to final table name (wp_actionscheduler_logs)
+0023.585 () Search and replacing table: wp_actionscheduler_logs: rows: 482
+0023.620 () Processing table (InnoDB): wp_commentmeta - will restore as: xy_commentmeta
+0023.726 () Atomic restore: dropping original table (wp_commentmeta)
+0023.772 () Atomic restore: renaming new table (xy_commentmeta) to final table name (wp_commentmeta)
+0023.823 () Search and replacing table: wp_commentmeta: rows: 80
+0023.832 () Processing table (InnoDB): wp_comments - will restore as: xy_comments
+0024.088 () Atomic restore: dropping original table (wp_comments)
+0024.144 () Atomic restore: renaming new table (xy_comments) to final table name (wp_comments)
+0024.205 () Search and replacing table: wp_comments: rows: 334
+0024.835 () Processing table (InnoDB): wp_links - will restore as: xy_links
+0024.917 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0024.934 () Atomic restore: dropping original table (wp_links)
+0024.981 () Atomic restore: renaming new table (xy_links) to final table name (wp_links)
+0025.029 () Search and replacing table: wp_links: rows: 0
+0025.030 () Processing table (InnoDB): wp_postmeta - will restore as: xy_postmeta
+0064.705 () Database queries processed: 100 in 64.02 seconds
+0094.126 () Database queries processed: 150 in 93.44 seconds
+0118.109 () Database queries processed: 200 in 117.42 seconds
+0142.797 () Database queries processed: 250 in 142.11 seconds
+0155.146 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0155.149 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0155.172 () Atomic restore: dropping original table (wp_postmeta)
+0155.237 () Atomic restore: renaming new table (xy_postmeta) to final table name (wp_postmeta)
+0161.795 () Search and replacing table: wp_postmeta: rows: 7674
+0258.523 () Searching and replacing reached row: 5000
+0315.430 () Processing table (InnoDB): wp_posts - will restore as: xy_posts
+0374.917 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0374.960 () Atomic restore: dropping original table (wp_posts)
+0375.034 () Atomic restore: renaming new table (xy_posts) to final table name (wp_posts)
+0375.255 () Skipping search/replace on GUID column in posts table
+0375.432 () Search and replacing table: wp_posts: rows: 14367
+0411.377 () Searching and replacing reached row: 5000
+0464.448 () Searching and replacing reached row: 10000
+0498.017 () Processing table (InnoDB): wp_term_relationships - will restore as: xy_term_relationships
+0498.441 () Database queries processed: 500 in 497.76 seconds
+0498.445 () Atomic restore: dropping original table (wp_term_relationships)
+0498.498 () Atomic restore: renaming new table (xy_term_relationships) to final table name (wp_term_relationships)
+0498.532 () Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0498.533 () Processing table (InnoDB): wp_term_taxonomy - will restore as: xy_term_taxonomy
+0498.954 () Atomic restore: dropping original table (wp_term_taxonomy)
+0499.009 () Atomic restore: renaming new table (xy_term_taxonomy) to final table name (wp_term_taxonomy)
+0499.070 () Search and replacing table: wp_term_taxonomy: rows: 2102
+0499.227 () Processing table (InnoDB): wp_termmeta - will restore as: xy_termmeta
+0500.519 () Atomic restore: dropping original table (wp_termmeta)
+0500.583 () Atomic restore: renaming new table (xy_termmeta) to final table name (wp_termmeta)
+0500.640 () Search and replacing table: wp_termmeta: rows: 7212
+0501.032 () Searching and replacing reached row: 5000
+0501.209 () Processing table (InnoDB): wp_terms - will restore as: xy_terms
+0501.626 () Atomic restore: dropping original table (wp_terms)
+0501.649 () Atomic restore: renaming new table (xy_terms) to final table name (wp_terms)
+0501.898 () Search and replacing table: wp_terms: rows: 2101
+0502.032 () Processing table (InnoDB): wp_wc_category_lookup - will restore as: xy_wc_category_lookup
+0502.103 () Atomic restore: dropping original table (wp_wc_category_lookup)
+0502.110 () Atomic restore: renaming new table (xy_wc_category_lookup) to final table name (wp_wc_category_lookup)
+0502.160 () Search and replacing table: wp_wc_category_lookup: rows: 1
+0502.162 () Processing table (InnoDB): wp_wc_product_meta_lookup - will restore as: xy_wc_product_meta_lookup
+0502.315 () Atomic restore: dropping original table (wp_wc_product_meta_lookup)
+0502.322 () Atomic restore: renaming new table (xy_wc_product_meta_lookup) to final table name (wp_wc_product_meta_lookup)
+0502.389 () Search and replacing table: wp_wc_product_meta_lookup: rows: 3
+0502.392 () Processing table (InnoDB): wp_wc_reserved_stock - will restore as: xy_wc_reserved_stock
+0502.457 () Atomic restore: dropping original table (wp_wc_reserved_stock)
+0502.467 () Atomic restore: renaming new table (xy_wc_reserved_stock) to final table name (wp_wc_reserved_stock)
+0502.518 () Search and replacing table: wp_wc_reserved_stock: rows: 0
+0502.518 () Processing table (InnoDB): wp_wc_tax_rate_classes - will restore as: xy_wc_tax_rate_classes
+0502.638 () Atomic restore: dropping original table (wp_wc_tax_rate_classes)
+0502.646 () Atomic restore: renaming new table (xy_wc_tax_rate_classes) to final table name (wp_wc_tax_rate_classes)
+0502.692 () Search and replacing table: wp_wc_tax_rate_classes: rows: 2
+0502.696 () Processing table (InnoDB): wp_woocommerce_order_itemmeta - will restore as: xy_woocommerce_order_itemmeta
+0502.820 () Atomic restore: dropping original table (wp_woocommerce_order_itemmeta)
+0502.829 () Atomic restore: renaming new table (xy_woocommerce_order_itemmeta) to final table name (wp_woocommerce_order_itemmeta)
+0502.893 () Search and replacing table: wp_woocommerce_order_itemmeta: rows: 27
+0502.898 () Processing table (InnoDB): wp_woocommerce_payment_tokenmeta - will restore as: xy_woocommerce_payment_tokenmeta
+0503.023 () Atomic restore: dropping original table (wp_woocommerce_payment_tokenmeta)
+0503.031 () Atomic restore: renaming new table (xy_woocommerce_payment_tokenmeta) to final table name (wp_woocommerce_payment_tokenmeta)
+0503.091 () Search and replacing table: wp_woocommerce_payment_tokenmeta: rows: 0
+0503.092 () Processing table (InnoDB): wp_cartflows_ca_cart_abandonment - will restore as: xy_cartflows_ca_cart_abandonment
+0503.207 () Atomic restore: dropping original table (wp_cartflows_ca_cart_abandonment)
+0503.214 () Atomic restore: renaming new table (xy_cartflows_ca_cart_abandonment) to final table name (wp_cartflows_ca_cart_abandonment)
+0503.265 () Search and replacing table: wp_cartflows_ca_cart_abandonment: rows: 1
+0503.268 () Incomplete object detected in database: WC_Product_Simple; Search and replace will be skipped for these entries
+0503.275 () Processing table (InnoDB): wp_cartflows_ca_email_history
+0503.427 () Search and replacing table: wp_cartflows_ca_email_history: rows: 2
+0503.429 () Processing table (InnoDB): wp_cartflows_ca_email_templates - will restore as: xy_cartflows_ca_email_templates
+0503.505 () Atomic restore: dropping original table (wp_cartflows_ca_email_templates)
+0503.511 () Atomic restore: renaming new table (xy_cartflows_ca_email_templates) to final table name (wp_cartflows_ca_email_templates)
+0503.583 () Search and replacing table: wp_cartflows_ca_email_templates: rows: 3
+0503.603 () Processing table (InnoDB): wp_cartflows_ca_email_templates_meta
+0503.739 () Search and replacing table: wp_cartflows_ca_email_templates_meta: rows: 24
+0503.742 () Processing table (InnoDB): wp_e_events - will restore as: xy_e_events
+0503.850 () Atomic restore: dropping original table (wp_e_events)
+0503.859 () Atomic restore: renaming new table (xy_e_events) to final table name (wp_e_events)
+0503.907 () Search and replacing table: wp_e_events: rows: 0
+0503.908 () Processing table (InnoDB): wp_e_submissions - will restore as: xy_e_submissions
+0504.093 () Atomic restore: dropping original table (wp_e_submissions)
+0504.099 () Atomic restore: renaming new table (xy_e_submissions) to final table name (wp_e_submissions)
+0504.182 () Search and replacing table: wp_e_submissions: rows: 0
+0504.183 () Processing table (InnoDB): wp_e_submissions_actions_log - will restore as: xy_e_submissions_actions_log
+0504.324 () Atomic restore: dropping original table (wp_e_submissions_actions_log)
+0504.332 () Atomic restore: renaming new table (xy_e_submissions_actions_log) to final table name (wp_e_submissions_actions_log)
+0504.395 () Search and replacing table: wp_e_submissions_actions_log: rows: 0
+0504.396 () Processing table (InnoDB): wp_e_submissions_values - will restore as: xy_e_submissions_values
+0504.695 () Atomic restore: dropping original table (wp_e_submissions_values)
+0504.702 () Atomic restore: renaming new table (xy_e_submissions_values) to final table name (wp_e_submissions_values)
+0504.751 () Search and replacing table: wp_e_submissions_values: rows: 0
+0504.752 () Processing table (InnoDB): wp_jetpack_sync_queue - will restore as: xy_jetpack_sync_queue
+0504.901 () Atomic restore: dropping original table (wp_jetpack_sync_queue)
+0504.908 () Atomic restore: renaming new table (xy_jetpack_sync_queue) to final table name (wp_jetpack_sync_queue)
+0504.965 () Search and replacing table: wp_jetpack_sync_queue: rows: 10
+0505.020 () Processing table (InnoDB): wp_mclean_refs - will restore as: xy_mclean_refs
+0505.235 () Atomic restore: dropping original table (wp_mclean_refs)
+0505.241 () Atomic restore: renaming new table (xy_mclean_refs) to final table name (wp_mclean_refs)
+0505.290 () Search and replacing table: wp_mclean_refs: rows: 1835
+0505.412 () Processing table (InnoDB): wp_mclean_scan - will restore as: xy_mclean_scan
+0505.563 () Atomic restore: dropping original table (wp_mclean_scan)
+0505.570 () Atomic restore: renaming new table (xy_mclean_scan) to final table name (wp_mclean_scan)
+0505.621 () Search and replacing table: wp_mclean_scan: rows: 341
+0505.659 () Processing table (InnoDB): wp_newsletter - will restore as: xy_newsletter
+0505.853 () Atomic restore: dropping original table (wp_newsletter)
+0505.861 () Atomic restore: renaming new table (xy_newsletter) to final table name (wp_newsletter)
+0505.976 () Search and replacing table: wp_newsletter: rows: 2
+0505.981 () Processing table (InnoDB): wp_newsletter_emails - will restore as: xy_newsletter_emails
+0506.069 () Atomic restore: dropping original table (wp_newsletter_emails)
+0506.077 () Atomic restore: renaming new table (xy_newsletter_emails) to final table name (wp_newsletter_emails)
+0506.133 () Search and replacing table: wp_newsletter_emails: rows: 1
+0506.136 () Processing table (InnoDB): wp_newsletter_logs - will restore as: xy_newsletter_logs
+0506.201 () Atomic restore: dropping original table (wp_newsletter_logs)
+0506.207 () Atomic restore: renaming new table (xy_newsletter_logs) to final table name (wp_newsletter_logs)
+0506.253 () Search and replacing table: wp_newsletter_logs: rows: 1
+0506.255 () Processing table (InnoDB): wp_newsletter_sent - will restore as: xy_newsletter_sent
+0506.393 () Atomic restore: dropping original table (wp_newsletter_sent)
+0506.401 () Atomic restore: renaming new table (xy_newsletter_sent) to final table name (wp_newsletter_sent)
+0506.452 () Search and replacing table: wp_newsletter_sent: rows: 0
+0506.453 () Processing table (InnoDB): wp_newsletter_stats - will restore as: xy_newsletter_stats
+0506.565 () Atomic restore: dropping original table (wp_newsletter_stats)
+0506.572 () Atomic restore: renaming new table (xy_newsletter_stats) to final table name (wp_newsletter_stats)
+0506.622 () Search and replacing table: wp_newsletter_stats: rows: 0
+0506.623 () Processing table (InnoDB): wp_newsletter_user_logs - will restore as: xy_newsletter_user_logs
+0506.691 () Atomic restore: dropping original table (wp_newsletter_user_logs)
+0506.699 () Atomic restore: renaming new table (xy_newsletter_user_logs) to final table name (wp_newsletter_user_logs)
+0506.749 () Search and replacing table: wp_newsletter_user_logs: rows: 3
+0506.751 () Processing table (InnoDB): wp_newsletter_user_meta - will restore as: xy_newsletter_user_meta
+0506.846 () Atomic restore: dropping original table (wp_newsletter_user_meta)
+0506.855 () Atomic restore: renaming new table (xy_newsletter_user_meta) to final table name (wp_newsletter_user_meta)
+0506.905 () Search and replacing table: wp_newsletter_user_meta: rows: 0
+0506.905 () Processing table (InnoDB): wp_nextend2_image_storage - will restore as: xy_nextend2_image_storage
+0507.021 () Atomic restore: dropping original table (wp_nextend2_image_storage)
+0507.029 () Atomic restore: renaming new table (xy_nextend2_image_storage) to final table name (wp_nextend2_image_storage)
+0507.084 () Search and replacing table: wp_nextend2_image_storage: rows: 0
+0507.085 () Processing table (InnoDB): wp_nextend2_section_storage - will restore as: xy_nextend2_section_storage
+0507.226 () Atomic restore: dropping original table (wp_nextend2_section_storage)
+0507.234 () Atomic restore: renaming new table (xy_nextend2_section_storage) to final table name (wp_nextend2_section_storage)
+0507.288 () Search and replacing table: wp_nextend2_section_storage: rows: 1
+0507.291 () Processing table (InnoDB): wp_nextend2_smartslider3_generators - will restore as: xy_nextend2_smartslider3_generators
+0507.344 () Atomic restore: dropping original table (wp_nextend2_smartslider3_generators)
+0507.351 () Atomic restore: renaming new table (xy_nextend2_smartslider3_generators) to final table name (wp_nextend2_smartslider3_generators)
+0507.397 () Search and replacing table: wp_nextend2_smartslider3_generators: rows: 0
+0507.397 () Processing table (InnoDB): wp_nextend2_smartslider3_sliders - will restore as: xy_nextend2_smartslider3_sliders
+0507.519 () Atomic restore: dropping original table (wp_nextend2_smartslider3_sliders)
+0507.527 () Atomic restore: renaming new table (xy_nextend2_smartslider3_sliders) to final table name (wp_nextend2_smartslider3_sliders)
+0507.576 () Search and replacing table: wp_nextend2_smartslider3_sliders: rows: 1
+0507.597 () Processing table (InnoDB): wp_nextend2_smartslider3_sliders_xref - will restore as: xy_nextend2_smartslider3_sliders_xref
+0507.701 () Atomic restore: dropping original table (wp_nextend2_smartslider3_sliders_xref)
+0507.708 () Atomic restore: renaming new table (xy_nextend2_smartslider3_sliders_xref) to final table name (wp_nextend2_smartslider3_sliders_xref)
+0507.756 () Search and replacing table: wp_nextend2_smartslider3_sliders_xref: rows: 0
+0507.757 () Processing table (InnoDB): wp_nextend2_smartslider3_slides - will restore as: xy_nextend2_smartslider3_slides
+0507.933 () Atomic restore: dropping original table (wp_nextend2_smartslider3_slides)
+0507.943 () Atomic restore: renaming new table (xy_nextend2_smartslider3_slides) to final table name (wp_nextend2_smartslider3_slides)
+0508.006 () Search and replacing table: wp_nextend2_smartslider3_slides: rows: 2
+0508.033 () Processing table (InnoDB): wp_pmxi_files - will restore as: xy_pmxi_files
+0508.085 () Atomic restore: dropping original table (wp_pmxi_files)
+0508.093 () Atomic restore: renaming new table (xy_pmxi_files) to final table name (wp_pmxi_files)
+0508.138 () Search and replacing table: wp_pmxi_files: rows: 0
+0508.139 () Processing table (InnoDB): wp_pmxi_hash - will restore as: xy_pmxi_hash
+0508.187 () Atomic restore: dropping original table (wp_pmxi_hash)
+0508.194 () Atomic restore: renaming new table (xy_pmxi_hash) to final table name (wp_pmxi_hash)
+0508.234 () Search and replacing table: wp_pmxi_hash: rows: 0
+0508.234 () Processing table (InnoDB): wp_pmxi_history - will restore as: xy_pmxi_history
+0508.289 () Atomic restore: dropping original table (wp_pmxi_history)
+0508.298 () Atomic restore: renaming new table (xy_pmxi_history) to final table name (wp_pmxi_history)
+0508.342 () Search and replacing table: wp_pmxi_history: rows: 0
+0508.343 () Processing table (InnoDB): wp_pmxi_images - will restore as: xy_pmxi_images
+0508.418 () Atomic restore: dropping original table (wp_pmxi_images)
+0508.426 () Atomic restore: renaming new table (xy_pmxi_images) to final table name (wp_pmxi_images)
+0508.470 () Search and replacing table: wp_pmxi_images: rows: 145
+0508.481 () Processing table (InnoDB): wp_pmxi_imports - will restore as: xy_pmxi_imports
+0508.565 () Atomic restore: dropping original table (wp_pmxi_imports)
+0508.572 () Atomic restore: renaming new table (xy_pmxi_imports) to final table name (wp_pmxi_imports)
+0508.635 () Search and replacing table: wp_pmxi_imports: rows: 0
+0508.635 () Processing table (InnoDB): wp_pmxi_posts - will restore as: xy_pmxi_posts
+0508.697 () Atomic restore: dropping original table (wp_pmxi_posts)
+0508.705 () Atomic restore: renaming new table (xy_pmxi_posts) to final table name (wp_pmxi_posts)
+0508.753 () Search and replacing table: wp_pmxi_posts: rows: 0
+0508.753 () Processing table (InnoDB): wp_pmxi_templates - will restore as: xy_pmxi_templates
+0508.812 () Atomic restore: dropping original table (wp_pmxi_templates)
+0508.820 () Atomic restore: renaming new table (xy_pmxi_templates) to final table name (wp_pmxi_templates)
+0508.882 () Search and replacing table: wp_pmxi_templates: rows: 0
+0508.882 () Processing table (InnoDB): wp_rank_math_404_logs - will restore as: xy_rank_math_404_logs
+0508.984 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0509.007 () Atomic restore: dropping original table (wp_rank_math_404_logs)
+0509.014 () Atomic restore: renaming new table (xy_rank_math_404_logs) to final table name (wp_rank_math_404_logs)
+0509.082 () Search and replacing table: wp_rank_math_404_logs: rows: 0
+0509.082 () Processing table (InnoDB): wp_rank_math_analytics_gsc - will restore as: xy_rank_math_analytics_gsc
+0612.745 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0612.765 () Atomic restore: dropping original table (wp_rank_math_analytics_gsc)
+0612.772 () Atomic restore: renaming new table (xy_rank_math_analytics_gsc) to final table name (wp_rank_math_analytics_gsc)
+0612.853 () Search and replacing table: wp_rank_math_analytics_gsc: rows: 92877
+0613.305 () Searching and replacing reached row: 5000
+0613.769 () Searching and replacing reached row: 10000
+0614.239 () Searching and replacing reached row: 15000
+0614.716 () Searching and replacing reached row: 20000
+0615.225 () Searching and replacing reached row: 25000
+0615.718 () Searching and replacing reached row: 30000
+0616.224 () Searching and replacing reached row: 35000
+0616.737 () Searching and replacing reached row: 40000
+0617.255 () Searching and replacing reached row: 45000
+0617.786 () Searching and replacing reached row: 50000
+0618.320 () Searching and replacing reached row: 55000
+0618.866 () Searching and replacing reached row: 60000
+0619.416 () Searching and replacing reached row: 65000
+0619.981 () Searching and replacing reached row: 70000
+0620.551 () Searching and replacing reached row: 75000
+0621.125 () Searching and replacing reached row: 80000
+0621.707 () Searching and replacing reached row: 85000
+0622.294 () Searching and replacing reached row: 90000
+0622.703 () Processing table (InnoDB): wp_rank_math_analytics_inspections - will restore as: xy_rank_math_analytics_inspections
+0622.874 () Atomic restore: dropping original table (wp_rank_math_analytics_inspections)
+0622.880 () Atomic restore: renaming new table (xy_rank_math_analytics_inspections) to final table name (wp_rank_math_analytics_inspections)
+0622.941 () Search and replacing table: wp_rank_math_analytics_inspections: rows: 118
+0623.388 () Processing table (InnoDB): wp_rank_math_analytics_objects - will restore as: xy_rank_math_analytics_objects
+0623.693 () Atomic restore: dropping original table (wp_rank_math_analytics_objects)
+0623.699 () Atomic restore: renaming new table (xy_rank_math_analytics_objects) to final table name (wp_rank_math_analytics_objects)
+0623.753 () Search and replacing table: wp_rank_math_analytics_objects: rows: 897
+0623.894 () Processing table (InnoDB): wp_rank_math_internal_links - will restore as: xy_rank_math_internal_links
+0624.258 () Atomic restore: dropping original table (wp_rank_math_internal_links)
+0624.265 () Atomic restore: renaming new table (xy_rank_math_internal_links) to final table name (wp_rank_math_internal_links)
+0624.313 () Search and replacing table: wp_rank_math_internal_links: rows: 2063
+0629.103 () Processing table (InnoDB): wp_rank_math_internal_meta - will restore as: xy_rank_math_internal_meta
+0629.204 () Atomic restore: dropping original table (wp_rank_math_internal_meta)
+0629.210 () Atomic restore: renaming new table (xy_rank_math_internal_meta) to final table name (wp_rank_math_internal_meta)
+0629.253 () Search and replacing table: wp_rank_math_internal_meta: rows: 540
+0629.285 () Processing table (InnoDB): wp_rank_math_redirections - will restore as: xy_rank_math_redirections
+0629.379 () Atomic restore: dropping original table (wp_rank_math_redirections)
+0629.387 () Atomic restore: renaming new table (xy_rank_math_redirections) to final table name (wp_rank_math_redirections)
+0629.437 () Search and replacing table: wp_rank_math_redirections: rows: 0
+0629.437 () Processing table (InnoDB): wp_rank_math_redirections_cache - will restore as: xy_rank_math_redirections_cache
+0629.558 () Atomic restore: dropping original table (wp_rank_math_redirections_cache)
+0629.569 () Atomic restore: renaming new table (xy_rank_math_redirections_cache) to final table name (wp_rank_math_redirections_cache)
+0629.613 () Search and replacing table: wp_rank_math_redirections_cache: rows: 0
+0629.614 () Processing table (InnoDB): wp_redirection_404 - will restore as: xy_redirection_404
+0629.707 () Atomic restore: dropping original table (wp_redirection_404)
+0629.713 () Atomic restore: renaming new table (xy_redirection_404) to final table name (wp_redirection_404)
+0629.752 () Skipping this table: data in this table (wp_redirection_404) should not be search/replaced
+0629.753 () Processing table (InnoDB): wp_redirection_groups - will restore as: xy_redirection_groups
+0629.874 () Atomic restore: dropping original table (wp_redirection_groups)
+0629.880 () Atomic restore: renaming new table (xy_redirection_groups) to final table name (wp_redirection_groups)
+0629.924 () Search and replacing table: wp_redirection_groups: rows: 2
+0629.926 () Processing table (InnoDB): wp_redirection_items - will restore as: xy_redirection_items
+0630.091 () Atomic restore: dropping original table (wp_redirection_items)
+0630.097 () Atomic restore: renaming new table (xy_redirection_items) to final table name (wp_redirection_items)
+0630.153 () Search and replacing table: wp_redirection_items: rows: 35
+0630.263 () Processing table (InnoDB): wp_redirection_logs - will restore as: xy_redirection_logs
+0630.417 () Atomic restore: dropping original table (wp_redirection_logs)
+0630.424 () Atomic restore: renaming new table (xy_redirection_logs) to final table name (wp_redirection_logs)
+0630.460 () Skipping this table: data in this table (wp_redirection_logs) should not be search/replaced
+0630.460 () Processing table (InnoDB): wp_surfer_gsc_traffic - will restore as: xy_surfer_gsc_traffic
+0630.527 () Atomic restore: dropping original table (wp_surfer_gsc_traffic)
+0630.537 () Atomic restore: renaming new table (xy_surfer_gsc_traffic) to final table name (wp_surfer_gsc_traffic)
+0630.584 () Search and replacing table: wp_surfer_gsc_traffic: rows: 0
+0630.584 () Processing table (InnoDB): wp_vehica_messages - will restore as: xy_vehica_messages
+0630.641 () Atomic restore: dropping original table (wp_vehica_messages)
+0630.650 () Atomic restore: renaming new table (xy_vehica_messages) to final table name (wp_vehica_messages)
+0630.691 () Search and replacing table: wp_vehica_messages: rows: 0
+0630.691 () Processing table (InnoDB): wp_wc_admin_note_actions - will restore as: xy_wc_admin_note_actions
+0630.798 () Atomic restore: dropping original table (wp_wc_admin_note_actions)
+0630.806 () Atomic restore: renaming new table (xy_wc_admin_note_actions) to final table name (wp_wc_admin_note_actions)
+0630.854 () Search and replacing table: wp_wc_admin_note_actions: rows: 121
+0630.996 () Processing table (InnoDB): wp_wc_admin_notes - will restore as: xy_wc_admin_notes
+0631.095 () Atomic restore: dropping original table (wp_wc_admin_notes)
+0631.103 () Atomic restore: renaming new table (xy_wc_admin_notes) to final table name (wp_wc_admin_notes)
+0631.159 () Search and replacing table: wp_wc_admin_notes: rows: 87
+0631.487 () Processing table (InnoDB): wp_wc_customer_lookup - will restore as: xy_wc_customer_lookup
+0631.616 () Atomic restore: dropping original table (wp_wc_customer_lookup)
+0631.622 () Atomic restore: renaming new table (xy_wc_customer_lookup) to final table name (wp_wc_customer_lookup)
+0631.678 () Search and replacing table: wp_wc_customer_lookup: rows: 10
+0631.683 () Processing table (InnoDB): wp_wc_download_log - will restore as: xy_wc_download_log
+0631.804 () Atomic restore: dropping original table (wp_wc_download_log)
+0631.811 () Atomic restore: renaming new table (xy_wc_download_log) to final table name (wp_wc_download_log)
+0631.861 () Search and replacing table: wp_wc_download_log: rows: 4
+0631.865 () Processing table (InnoDB): wp_wc_order_addresses - will restore as: xy_wc_order_addresses
+0632.027 () Atomic restore: dropping original table (wp_wc_order_addresses)
+0632.033 () Atomic restore: renaming new table (xy_wc_order_addresses) to final table name (wp_wc_order_addresses)
+0632.096 () Search and replacing table: wp_wc_order_addresses: rows: 3
+0632.102 () Processing table (InnoDB): wp_wc_order_coupon_lookup - will restore as: xy_wc_order_coupon_lookup
+0632.213 () Atomic restore: dropping original table (wp_wc_order_coupon_lookup)
+0632.221 () Atomic restore: renaming new table (xy_wc_order_coupon_lookup) to final table name (wp_wc_order_coupon_lookup)
+0632.272 () Search and replacing table: wp_wc_order_coupon_lookup: rows: 0
+0632.272 () Processing table (InnoDB): wp_wc_order_operational_data - will restore as: xy_wc_order_operational_data
+0632.402 () Atomic restore: dropping original table (wp_wc_order_operational_data)
+0632.409 () Atomic restore: renaming new table (xy_wc_order_operational_data) to final table name (wp_wc_order_operational_data)
+0632.475 () Search and replacing table: wp_wc_order_operational_data: rows: 3
+0632.478 () Processing table (InnoDB): wp_wc_order_product_lookup - will restore as: xy_wc_order_product_lookup
+0632.634 () Atomic restore: dropping original table (wp_wc_order_product_lookup)
+0632.641 () Atomic restore: renaming new table (xy_wc_order_product_lookup) to final table name (wp_wc_order_product_lookup)
+0632.710 () Search and replacing table: wp_wc_order_product_lookup: rows: 3
+0632.713 () Processing table (InnoDB): wp_wc_order_stats - will restore as: xy_wc_order_stats
+0632.857 () Atomic restore: dropping original table (wp_wc_order_stats)
+0632.865 () Atomic restore: renaming new table (xy_wc_order_stats) to final table name (wp_wc_order_stats)
+0632.927 () Search and replacing table: wp_wc_order_stats: rows: 3
+0632.930 () Processing table (InnoDB): wp_wc_order_tax_lookup - will restore as: xy_wc_order_tax_lookup
+0633.034 () Atomic restore: dropping original table (wp_wc_order_tax_lookup)
+0633.042 () Atomic restore: renaming new table (xy_wc_order_tax_lookup) to final table name (wp_wc_order_tax_lookup)
+0633.091 () Search and replacing table: wp_wc_order_tax_lookup: rows: 0
+0633.091 () Processing table (InnoDB): wp_wc_orders - will restore as: xy_wc_orders
+0633.251 () Atomic restore: dropping original table (wp_wc_orders)
+0633.258 () Atomic restore: renaming new table (xy_wc_orders) to final table name (wp_wc_orders)
+0633.327 () Search and replacing table: wp_wc_orders: rows: 3
+0633.330 () Processing table (InnoDB): wp_wc_orders_meta - will restore as: xy_wc_orders_meta
+0633.463 () Atomic restore: dropping original table (wp_wc_orders_meta)
+0633.474 () Atomic restore: renaming new table (xy_wc_orders_meta) to final table name (wp_wc_orders_meta)
+0633.544 () Search and replacing table: wp_wc_orders_meta: rows: 56
+0633.575 () Processing table (InnoDB): wp_wc_product_attributes_lookup - will restore as: xy_wc_product_attributes_lookup
+0633.675 () Atomic restore: dropping original table (wp_wc_product_attributes_lookup)
+0633.684 () Atomic restore: renaming new table (xy_wc_product_attributes_lookup) to final table name (wp_wc_product_attributes_lookup)
+0633.739 () Search and replacing table: wp_wc_product_attributes_lookup: rows: 0
+0633.740 () Processing table (InnoDB): wp_wc_product_download_directories - will restore as: xy_wc_product_download_directories
+0633.891 () Atomic restore: dropping original table (wp_wc_product_download_directories)
+0633.899 () Atomic restore: renaming new table (xy_wc_product_download_directories) to final table name (wp_wc_product_download_directories)
+0633.971 () Search and replacing table: wp_wc_product_download_directories: rows: 3
+0633.988 () Processing table (InnoDB): wp_wc_rate_limits - will restore as: xy_wc_rate_limits
+0634.091 () Atomic restore: dropping original table (wp_wc_rate_limits)
+0634.097 () Atomic restore: renaming new table (xy_wc_rate_limits) to final table name (wp_wc_rate_limits)
+0634.146 () Search and replacing table: wp_wc_rate_limits: rows: 0
+0634.146 () Processing table (InnoDB): wp_wc_webhooks - will restore as: xy_wc_webhooks
+0634.263 () Atomic restore: dropping original table (wp_wc_webhooks)
+0634.275 () Atomic restore: renaming new table (xy_wc_webhooks) to final table name (wp_wc_webhooks)
+0634.334 () Search and replacing table: wp_wc_webhooks: rows: 0
+0634.335 () Processing table (InnoDB): wp_woocommerce_api_keys - will restore as: xy_woocommerce_api_keys
+0634.457 () Atomic restore: dropping original table (wp_woocommerce_api_keys)
+0634.467 () Atomic restore: renaming new table (xy_woocommerce_api_keys) to final table name (wp_woocommerce_api_keys)
+0634.526 () Search and replacing table: wp_woocommerce_api_keys: rows: 0
+0634.526 () Processing table (InnoDB): wp_woocommerce_attribute_taxonomies - will restore as: xy_woocommerce_attribute_taxonomies
+0634.659 () Atomic restore: dropping original table (wp_woocommerce_attribute_taxonomies)
+0634.672 () Atomic restore: renaming new table (xy_woocommerce_attribute_taxonomies) to final table name (wp_woocommerce_attribute_taxonomies)
+0634.723 () Search and replacing table: wp_woocommerce_attribute_taxonomies: rows: 0
+0634.724 () Processing table (InnoDB): wp_woocommerce_downloadable_product_permissions - will restore as: xy_woocommerce_downloadable_product_permissions
+0634.893 () Atomic restore: dropping original table (wp_woocommerce_downloadable_product_permissions)
+0634.903 () Atomic restore: renaming new table (xy_woocommerce_downloadable_product_permissions) to final table name (wp_woocommerce_downloadable_product_permissions)
+0635.070 () Search and replacing table: wp_woocommerce_downloadable_product_permissions: rows: 3
+0635.073 () Processing table (InnoDB): wp_woocommerce_log - will restore as: xy_woocommerce_log
+0635.188 () Atomic restore: dropping original table (wp_woocommerce_log)
+0635.194 () Atomic restore: renaming new table (xy_woocommerce_log) to final table name (wp_woocommerce_log)
+0635.253 () Search and replacing table: wp_woocommerce_log: rows: 0
+0635.254 () Processing table (InnoDB): wp_woocommerce_order_items - will restore as: xy_woocommerce_order_items
+0635.384 () Atomic restore: dropping original table (wp_woocommerce_order_items)
+0635.392 () Atomic restore: renaming new table (xy_woocommerce_order_items) to final table name (wp_woocommerce_order_items)
+0635.421 () Skipping this table: data in this table (wp_woocommerce_order_items) should not be search/replaced
+0635.422 () Processing table (InnoDB): wp_woocommerce_payment_tokens - will restore as: xy_woocommerce_payment_tokens
+0635.543 () Atomic restore: dropping original table (wp_woocommerce_payment_tokens)
+0635.554 () Atomic restore: renaming new table (xy_woocommerce_payment_tokens) to final table name (wp_woocommerce_payment_tokens)
+0635.631 () Search and replacing table: wp_woocommerce_payment_tokens: rows: 0
+0635.631 () Processing table (InnoDB): wp_woocommerce_sessions - will restore as: xy_woocommerce_sessions
+0636.163 () Atomic restore: dropping original table (wp_woocommerce_sessions)
+0636.181 () Atomic restore: renaming new table (xy_woocommerce_sessions) to final table name (wp_woocommerce_sessions)
+0636.220 () Skipping this table: data in this table (wp_woocommerce_sessions) should not be search/replaced
+0636.221 () Processing table (InnoDB): wp_woocommerce_shipping_zone_locations - will restore as: xy_woocommerce_shipping_zone_locations
+0636.410 () Atomic restore: dropping original table (wp_woocommerce_shipping_zone_locations)
+0636.419 () Atomic restore: renaming new table (xy_woocommerce_shipping_zone_locations) to final table name (wp_woocommerce_shipping_zone_locations)
+0636.503 () Search and replacing table: wp_woocommerce_shipping_zone_locations: rows: 0
+0636.503 () Processing table (InnoDB): wp_woocommerce_shipping_zone_methods - will restore as: xy_woocommerce_shipping_zone_methods
+0636.644 () Atomic restore: dropping original table (wp_woocommerce_shipping_zone_methods)
+0636.653 () Atomic restore: renaming new table (xy_woocommerce_shipping_zone_methods) to final table name (wp_woocommerce_shipping_zone_methods)
+0636.707 () Search and replacing table: wp_woocommerce_shipping_zone_methods: rows: 0
+0636.707 () Processing table (InnoDB): wp_woocommerce_shipping_zones - will restore as: xy_woocommerce_shipping_zones
+0636.790 () Atomic restore: dropping original table (wp_woocommerce_shipping_zones)
+0636.796 () Atomic restore: renaming new table (xy_woocommerce_shipping_zones) to final table name (wp_woocommerce_shipping_zones)
+0636.848 () Search and replacing table: wp_woocommerce_shipping_zones: rows: 0
+0636.848 () Processing table (InnoDB): wp_woocommerce_tax_rate_locations - will restore as: xy_woocommerce_tax_rate_locations
+0636.978 () Atomic restore: dropping original table (wp_woocommerce_tax_rate_locations)
+0636.990 () Atomic restore: renaming new table (xy_woocommerce_tax_rate_locations) to final table name (wp_woocommerce_tax_rate_locations)
+0637.058 () Search and replacing table: wp_woocommerce_tax_rate_locations: rows: 0
+0637.058 () Processing table (InnoDB): wp_woocommerce_tax_rates - will restore as: xy_woocommerce_tax_rates
+0637.222 () Atomic restore: dropping original table (wp_woocommerce_tax_rates)
+0637.230 () Atomic restore: renaming new table (xy_woocommerce_tax_rates) to final table name (wp_woocommerce_tax_rates)
+0637.296 () Search and replacing table: wp_woocommerce_tax_rates: rows: 0
+0637.297 () Processing table (InnoDB): wp_wpfm_backup - will restore as: xy_wpfm_backup
+0637.359 () Atomic restore: dropping original table (wp_wpfm_backup)
+0637.368 () Atomic restore: renaming new table (xy_wpfm_backup) to final table name (wp_wpfm_backup)
+0637.426 () Search and replacing table: wp_wpfm_backup: rows: 0
+0637.427 () Processing table (InnoDB): wp_wpforms_logs - will restore as: xy_wpforms_logs
+0637.521 () Atomic restore: dropping original table (wp_wpforms_logs)
+0637.530 () Atomic restore: renaming new table (xy_wpforms_logs) to final table name (wp_wpforms_logs)
+0637.604 () Search and replacing table: wp_wpforms_logs: rows: 0
+0637.605 () Processing table (InnoDB): wp_wpforms_payment_meta - will restore as: xy_wpforms_payment_meta
+0637.744 () Atomic restore: dropping original table (wp_wpforms_payment_meta)
+0637.753 () Database queries processed: 750 in 637.07 seconds
+0637.754 () Atomic restore: renaming new table (xy_wpforms_payment_meta) to final table name (wp_wpforms_payment_meta)
+0637.808 () Search and replacing table: wp_wpforms_payment_meta: rows: 0
+0637.809 () Processing table (InnoDB): wp_wpforms_payments - will restore as: xy_wpforms_payments
+0637.961 () Atomic restore: dropping original table (wp_wpforms_payments)
+0637.970 () Atomic restore: renaming new table (xy_wpforms_payments) to final table name (wp_wpforms_payments)
+0638.043 () Search and replacing table: wp_wpforms_payments: rows: 0
+0638.043 () Processing table (InnoDB): wp_wpforms_tasks_meta - will restore as: xy_wpforms_tasks_meta
+0638.113 () Atomic restore: dropping original table (wp_wpforms_tasks_meta)
+0638.122 () Atomic restore: renaming new table (xy_wpforms_tasks_meta) to final table name (wp_wpforms_tasks_meta)
+0638.191 () Search and replacing table: wp_wpforms_tasks_meta: rows: 4
+0638.194 () Processing table (MyISAM): wp_wpmlautoresponderemails - will restore as: xy_wpmlautoresponderemails
+0638.242 () Atomic restore: dropping original table (wp_wpmlautoresponderemails)
+0638.252 () Atomic restore: renaming new table (xy_wpmlautoresponderemails) to final table name (wp_wpmlautoresponderemails)
+0638.303 () Search and replacing table: wp_wpmlautoresponderemails: rows: 0
+0638.303 () Processing table (MyISAM): wp_wpmlautoresponders - will restore as: xy_wpmlautoresponders
+0638.352 () Atomic restore: dropping original table (wp_wpmlautoresponders)
+0638.360 () Atomic restore: renaming new table (xy_wpmlautoresponders) to final table name (wp_wpmlautoresponders)
+0638.410 () Search and replacing table: wp_wpmlautoresponders: rows: 0
+0638.410 () Processing table (MyISAM): wp_wpmlautorespondersforms - will restore as: xy_wpmlautorespondersforms
+0638.451 () Atomic restore: dropping original table (wp_wpmlautorespondersforms)
+0638.459 () Atomic restore: renaming new table (xy_wpmlautorespondersforms) to final table name (wp_wpmlautorespondersforms)
+0638.505 () Search and replacing table: wp_wpmlautorespondersforms: rows: 0
+0638.506 () Processing table (MyISAM): wp_wpmlautoresponderslists - will restore as: xy_wpmlautoresponderslists
+0638.568 () Atomic restore: dropping original table (wp_wpmlautoresponderslists)
+0638.578 () Atomic restore: renaming new table (xy_wpmlautoresponderslists) to final table name (wp_wpmlautoresponderslists)
+0638.626 () Search and replacing table: wp_wpmlautoresponderslists: rows: 0
+0638.626 () Processing table (MyISAM): wp_wpmlbounces - will restore as: xy_wpmlbounces
+0638.679 () Atomic restore: dropping original table (wp_wpmlbounces)
+0638.691 () Atomic restore: renaming new table (xy_wpmlbounces) to final table name (wp_wpmlbounces)
+0638.741 () Search and replacing table: wp_wpmlbounces: rows: 0
+0638.741 () Processing table (MyISAM): wp_wpmlclicks - will restore as: xy_wpmlclicks
+0638.797 () Atomic restore: dropping original table (wp_wpmlclicks)
+0638.807 () Atomic restore: renaming new table (xy_wpmlclicks) to final table name (wp_wpmlclicks)
+0638.850 () Search and replacing table: wp_wpmlclicks: rows: 1
+0638.855 () Processing table (MyISAM): wp_wpmlcontents - will restore as: xy_wpmlcontents
+0638.902 () Atomic restore: dropping original table (wp_wpmlcontents)
+0638.910 () Atomic restore: renaming new table (xy_wpmlcontents) to final table name (wp_wpmlcontents)
+0638.959 () Search and replacing table: wp_wpmlcontents: rows: 0
+0638.959 () Processing table (MyISAM): wp_wpmlcountries - will restore as: xy_wpmlcountries
+0639.036 () Atomic restore: dropping original table (wp_wpmlcountries)
+0639.044 () Atomic restore: renaming new table (xy_wpmlcountries) to final table name (wp_wpmlcountries)
+0639.089 () Search and replacing table: wp_wpmlcountries: rows: 241
+0639.120 () Processing table (MyISAM): wp_wpmlemails - will restore as: xy_wpmlemails
+0639.199 () Atomic restore: dropping original table (wp_wpmlemails)
+0639.207 () Atomic restore: renaming new table (xy_wpmlemails) to final table name (wp_wpmlemails)
+0639.256 () Search and replacing table: wp_wpmlemails: rows: 68
+0639.275 () Processing table (MyISAM): wp_wpmlfields - will restore as: xy_wpmlfields
+0639.353 () Atomic restore: dropping original table (wp_wpmlfields)
+0639.360 () Atomic restore: renaming new table (xy_wpmlfields) to final table name (wp_wpmlfields)
+0639.414 () Search and replacing table: wp_wpmlfields: rows: 3
+0639.421 () Processing table (MyISAM): wp_wpmlfieldsforms - will restore as: xy_wpmlfieldsforms
+0639.478 () Atomic restore: dropping original table (wp_wpmlfieldsforms)
+0639.488 () Atomic restore: renaming new table (xy_wpmlfieldsforms) to final table name (wp_wpmlfieldsforms)
+0639.535 () Search and replacing table: wp_wpmlfieldsforms: rows: 2
+0639.540 () Processing table (MyISAM): wp_wpmlfieldslists - will restore as: xy_wpmlfieldslists
+0639.616 () Atomic restore: dropping original table (wp_wpmlfieldslists)
+0639.624 () Atomic restore: renaming new table (xy_wpmlfieldslists) to final table name (wp_wpmlfieldslists)
+0639.679 () Search and replacing table: wp_wpmlfieldslists: rows: 5
+0639.686 () Processing table (MyISAM): wp_wpmlforms - will restore as: xy_wpmlforms
+0639.756 () Atomic restore: dropping original table (wp_wpmlforms)
+0639.771 () Atomic restore: renaming new table (xy_wpmlforms) to final table name (wp_wpmlforms)
+0639.813 () Search and replacing table: wp_wpmlforms: rows: 1
+0639.821 () Processing table (MyISAM): wp_wpmlgroups - will restore as: xy_wpmlgroups
+0639.867 () Atomic restore: dropping original table (wp_wpmlgroups)
+0639.878 () Atomic restore: renaming new table (xy_wpmlgroups) to final table name (wp_wpmlgroups)
+0639.922 () Search and replacing table: wp_wpmlgroups: rows: 0
+0639.923 () Processing table (MyISAM): wp_wpmlhistoriesattachments - will restore as: xy_wpmlhistoriesattachments
+0639.969 () Atomic restore: dropping original table (wp_wpmlhistoriesattachments)
+0639.976 () Atomic restore: renaming new table (xy_wpmlhistoriesattachments) to final table name (wp_wpmlhistoriesattachments)
+0640.025 () Search and replacing table: wp_wpmlhistoriesattachments: rows: 0
+0640.025 () Processing table (MyISAM): wp_wpmlhistorieslists - will restore as: xy_wpmlhistorieslists
+0640.067 () Atomic restore: dropping original table (wp_wpmlhistorieslists)
+0640.076 () Atomic restore: renaming new table (xy_wpmlhistorieslists) to final table name (wp_wpmlhistorieslists)
+0640.123 () Search and replacing table: wp_wpmlhistorieslists: rows: 0
+0640.124 () Processing table (MyISAM): wp_wpmlhistory - will restore as: xy_wpmlhistory
+0640.211 () Atomic restore: dropping original table (wp_wpmlhistory)
+0640.220 () Atomic restore: renaming new table (xy_wpmlhistory) to final table name (wp_wpmlhistory)
+0640.280 () Search and replacing table: wp_wpmlhistory: rows: 2
+0640.289 () Processing table (MyISAM): wp_wpmllatestposts - will restore as: xy_wpmllatestposts
+0640.330 () Atomic restore: dropping original table (wp_wpmllatestposts)
+0640.342 () Atomic restore: renaming new table (xy_wpmllatestposts) to final table name (wp_wpmllatestposts)
+0640.392 () Search and replacing table: wp_wpmllatestposts: rows: 0
+0640.392 () Processing table (MyISAM): wp_wpmllatestpostssubscriptions - will restore as: xy_wpmllatestpostssubscriptions
+0640.443 () Atomic restore: dropping original table (wp_wpmllatestpostssubscriptions)
+0640.454 () Atomic restore: renaming new table (xy_wpmllatestpostssubscriptions) to final table name (wp_wpmllatestpostssubscriptions)
+0640.523 () Search and replacing table: wp_wpmllatestpostssubscriptions: rows: 0
+0640.523 () Processing table (MyISAM): wp_wpmllinks - will restore as: xy_wpmllinks
+0640.577 () Atomic restore: dropping original table (wp_wpmllinks)
+0640.587 () Atomic restore: renaming new table (xy_wpmllinks) to final table name (wp_wpmllinks)
+0640.628 () Search and replacing table: wp_wpmllinks: rows: 1
+0640.642 () Processing table (MyISAM): wp_wpmlmailinglists - will restore as: xy_wpmlmailinglists
+0640.706 () Atomic restore: dropping original table (wp_wpmlmailinglists)
+0640.713 () Atomic restore: renaming new table (xy_wpmlmailinglists) to final table name (wp_wpmlmailinglists)
+0640.766 () Search and replacing table: wp_wpmlmailinglists: rows: 1
+0640.772 () Processing table (MyISAM): wp_wpmloptions - will restore as: xy_wpmloptions
+0640.829 () Atomic restore: dropping original table (wp_wpmloptions)
+0640.839 () Atomic restore: renaming new table (xy_wpmloptions) to final table name (wp_wpmloptions)
+0640.878 () Search and replacing table: wp_wpmloptions: rows: 1
+0640.885 () Processing table (MyISAM): wp_wpmlorders - will restore as: xy_wpmlorders
+0640.931 () Atomic restore: dropping original table (wp_wpmlorders)
+0640.941 () Atomic restore: renaming new table (xy_wpmlorders) to final table name (wp_wpmlorders)
+0640.990 () Search and replacing table: wp_wpmlorders: rows: 0
+0640.990 () Processing table (MyISAM): wp_wpmlposts - will restore as: xy_wpmlposts
+0641.039 () Atomic restore: dropping original table (wp_wpmlposts)
+0641.046 () Atomic restore: renaming new table (xy_wpmlposts) to final table name (wp_wpmlposts)
+0641.092 () Search and replacing table: wp_wpmlposts: rows: 0
+0641.092 () Processing table (MyISAM): wp_wpmlsubscribermetas - will restore as: xy_wpmlsubscribermetas
+0641.139 () Atomic restore: dropping original table (wp_wpmlsubscribermetas)
+0641.151 () Atomic restore: renaming new table (xy_wpmlsubscribermetas) to final table name (wp_wpmlsubscribermetas)
+0641.196 () Search and replacing table: wp_wpmlsubscribermetas: rows: 0
+0641.196 () Processing table (MyISAM): wp_wpmlsubscribers - will restore as: xy_wpmlsubscribers
+0641.256 () Atomic restore: dropping original table (wp_wpmlsubscribers)
+0641.266 () Atomic restore: renaming new table (xy_wpmlsubscribers) to final table name (wp_wpmlsubscribers)
+0641.328 () Search and replacing table: wp_wpmlsubscribers: rows: 0
+0641.329 () Processing table (MyISAM): wp_wpmlsubscriberslists - will restore as: xy_wpmlsubscriberslists
+0641.374 () Atomic restore: dropping original table (wp_wpmlsubscriberslists)
+0641.386 () Atomic restore: renaming new table (xy_wpmlsubscriberslists) to final table name (wp_wpmlsubscriberslists)
+0641.441 () Search and replacing table: wp_wpmlsubscriberslists: rows: 0
+0641.441 () Processing table (MyISAM): wp_wpmlsubscribersoptions - will restore as: xy_wpmlsubscribersoptions
+0641.490 () Atomic restore: dropping original table (wp_wpmlsubscribersoptions)
+0641.500 () Atomic restore: renaming new table (xy_wpmlsubscribersoptions) to final table name (wp_wpmlsubscribersoptions)
+0641.556 () Search and replacing table: wp_wpmlsubscribersoptions: rows: 0
+0641.557 () Processing table (MyISAM): wp_wpmltemplates - will restore as: xy_wpmltemplates
+0641.604 () Atomic restore: dropping original table (wp_wpmltemplates)
+0641.614 () Atomic restore: renaming new table (xy_wpmltemplates) to final table name (wp_wpmltemplates)
+0641.662 () Search and replacing table: wp_wpmltemplates: rows: 0
+0641.663 () Processing table (MyISAM): wp_wpmlthemes - will restore as: xy_wpmlthemes
+0641.737 () Atomic restore: dropping original table (wp_wpmlthemes)
+0641.744 () Atomic restore: renaming new table (xy_wpmlthemes) to final table name (wp_wpmlthemes)
+0641.793 () Search and replacing table: wp_wpmlthemes: rows: 11
+0641.805 () Processing table (MyISAM): wp_wpmlunsubscribes - will restore as: xy_wpmlunsubscribes
+0641.837 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0641.844 () Unlocking database and leaving maintenance mode
+0641.846 () Disabling Maintenance mode&#8230;
+0641.849 () Atomic restore: dropping original table (wp_wpmlunsubscribes)
+0641.858 () Atomic restore: renaming new table (xy_wpmlunsubscribes) to final table name (wp_wpmlunsubscribes)
+0641.908 () Search and replacing table: wp_wpmlunsubscribes: rows: 0
+0641.908 () Finished: lines processed: 831 in 641.22 seconds
+0641.918 () Cleaning up rubbish...
+0641.923 () Begin search and replace (updraftplus_restored_db)
+0641.923 () [Database-replace-site-url] Database: search and replace site URL
+0641.926 () Database search and replace: replace https://travelcarsnz.com in backup dump with http://travel-car.test
+0641.927 () Database search and replace: replace http://www.travelcarsnz.com in backup dump with http://travel-car.test
+0641.928 () Database search and replace: replace http://travelcarsnz.com in backup dump with http://travel-car.test
+0641.929 () Database search and replace: replace https://www.travelcarsnz.com in backup dump with http://travel-car.test
+0641.930 () Database search and replace: replace /home/u315118698/domains/travelcarsnz.com/public_html in backup dump with C:\laragon\www\travel-car
+0641.944 () Search and replacing table: wp_actionscheduler_actions: already done
+0641.945 () Search and replacing table: wp_actionscheduler_claims: already done
+0641.946 () Search and replacing table: wp_actionscheduler_groups: already done
+0641.946 () Search and replacing table: wp_actionscheduler_logs: already done
+0641.947 () Search and replacing table: wp_cartflows_ca_cart_abandonment: already done
+0641.948 () Search and replacing table: wp_cartflows_ca_email_history: already done
+0641.949 () Search and replacing table: wp_cartflows_ca_email_templates: already done
+0641.950 () Search and replacing table: wp_cartflows_ca_email_templates_meta: already done
+0641.952 () Search and replacing table: wp_commentmeta: already done
+0641.953 () Search and replacing table: wp_comments: already done
+0641.954 () Search and replacing table: wp_e_events: already done
+0641.955 () Search and replacing table: wp_e_submissions: already done
+0641.956 () Search and replacing table: wp_e_submissions_actions_log: already done
+0641.957 () Search and replacing table: wp_e_submissions_values: already done
+0641.959 () Search and replacing table: wp_jetpack_sync_queue: already done
+0641.960 () Search and replacing table: wp_links: already done
+0641.961 () Search and replacing table: wp_mclean_refs: already done
+0641.962 () Search and replacing table: wp_mclean_scan: already done
+0641.963 () Search and replacing table: wp_newsletter: already done
+0641.964 () Search and replacing table: wp_newsletter_emails: already done
+0641.967 () Search and replacing table: wp_newsletter_logs: already done
+0641.968 () Search and replacing table: wp_newsletter_sent: already done
+0641.969 () Search and replacing table: wp_newsletter_stats: already done
+0641.971 () Search and replacing table: wp_newsletter_user_logs: already done
+0641.972 () Search and replacing table: wp_newsletter_user_meta: already done
+0641.973 () Search and replacing table: wp_nextend2_image_storage: already done
+0641.974 () Search and replacing table: wp_nextend2_section_storage: already done
+0641.975 () Search and replacing table: wp_nextend2_smartslider3_generators: already done
+0641.976 () Search and replacing table: wp_nextend2_smartslider3_sliders: already done
+0641.977 () Search and replacing table: wp_nextend2_smartslider3_sliders_xref: already done
+0641.978 () Search and replacing table: wp_nextend2_smartslider3_slides: already done
+0641.979 () Search and replacing table: wp_options: already done
+0641.981 () Search and replacing table: wp_pmxi_files: already done
+0641.983 () Search and replacing table: wp_pmxi_hash: already done
+0641.984 () Search and replacing table: wp_pmxi_history: already done
+0641.986 () Search and replacing table: wp_pmxi_images: already done
+0641.988 () Search and replacing table: wp_pmxi_imports: already done
+0641.989 () Search and replacing table: wp_pmxi_posts: already done
+0641.990 () Search and replacing table: wp_pmxi_templates: already done
+0641.991 () Search and replacing table: wp_postmeta: already done
+0641.993 () Search and replacing table: wp_posts: already done
+0641.994 () Search and replacing table: wp_rank_math_404_logs: already done
+0641.995 () Search and replacing table: wp_rank_math_analytics_gsc: already done
+0641.996 () Search and replacing table: wp_rank_math_analytics_inspections: already done
+0642.000 () Search and replacing table: wp_rank_math_analytics_objects: already done
+0642.001 () Search and replacing table: wp_rank_math_internal_links: already done
+0642.003 () Search and replacing table: wp_rank_math_internal_meta: already done
+0642.004 () Search and replacing table: wp_rank_math_redirections: already done
+0642.005 () Search and replacing table: wp_rank_math_redirections_cache: already done
+0642.007 () Search and replacing table: wp_redirection_404: already done
+0642.009 () Search and replacing table: wp_redirection_groups: already done
+0642.010 () Search and replacing table: wp_redirection_items: already done
+0642.011 () Search and replacing table: wp_redirection_logs: already done
+0642.013 () Search and replacing table: wp_surfer_gsc_traffic: already done
+0642.015 () Search and replacing table: wp_term_relationships: already done
+0642.017 () Search and replacing table: wp_term_taxonomy: already done
+0642.020 () Search and replacing table: wp_termmeta: already done
+0642.022 () Search and replacing table: wp_terms: already done
+0642.024 () Search and replacing table: wp_usermeta: already done
+0642.026 () Search and replacing table: wp_users: already done
+0642.027 () Search and replacing table: wp_vehica_messages: already done
+0642.030 () Search and replacing table: wp_wc_admin_note_actions: already done
+0642.034 () Search and replacing table: wp_wc_admin_notes: already done
+0642.036 () Search and replacing table: wp_wc_category_lookup: already done
+0642.037 () Search and replacing table: wp_wc_customer_lookup: already done
+0642.038 () Search and replacing table: wp_wc_download_log: already done
+0642.039 () Search and replacing table: wp_wc_order_addresses: already done
+0642.040 () Search and replacing table: wp_wc_order_coupon_lookup: already done
+0642.041 () Search and replacing table: wp_wc_order_operational_data: already done
+0642.042 () Search and replacing table: wp_wc_order_product_lookup: already done
+0642.043 () Search and replacing table: wp_wc_order_stats: already done
+0642.044 () Search and replacing table: wp_wc_order_tax_lookup: already done
+0642.046 () Search and replacing table: wp_wc_orders: already done
+0642.047 () Search and replacing table: wp_wc_orders_meta: already done
+0642.052 () Search and replacing table: wp_wc_product_attributes_lookup: already done
+0642.054 () Search and replacing table: wp_wc_product_download_directories: already done
+0642.055 () Search and replacing table: wp_wc_product_meta_lookup: already done
+0642.057 () Search and replacing table: wp_wc_rate_limits: already done
+0642.058 () Search and replacing table: wp_wc_reserved_stock: already done
+0642.059 () Search and replacing table: wp_wc_tax_rate_classes: already done
+0642.060 () Search and replacing table: wp_wc_webhooks: already done
+0642.062 () Search and replacing table: wp_woocommerce_api_keys: already done
+0642.063 () Search and replacing table: wp_woocommerce_attribute_taxonomies: already done
+0642.068 () Search and replacing table: wp_woocommerce_downloadable_product_permissions: already done
+0642.069 () Search and replacing table: wp_woocommerce_log: already done
+0642.071 () Search and replacing table: wp_woocommerce_order_itemmeta: already done
+0642.072 () Search and replacing table: wp_woocommerce_order_items: already done
+0642.073 () Search and replacing table: wp_woocommerce_payment_tokenmeta: already done
+0642.074 () Search and replacing table: wp_woocommerce_payment_tokens: already done
+0642.075 () Search and replacing table: wp_woocommerce_sessions: already done
+0642.076 () Search and replacing table: wp_woocommerce_shipping_zone_locations: already done
+0642.078 () Search and replacing table: wp_woocommerce_shipping_zone_methods: already done
+0642.079 () Search and replacing table: wp_woocommerce_shipping_zones: already done
+0642.080 () Search and replacing table: wp_woocommerce_tax_rate_locations: already done
+0642.083 () Search and replacing table: wp_woocommerce_tax_rates: already done
+0642.084 () Search and replacing table: wp_wpfm_backup: already done
+0642.086 () Search and replacing table: wp_wpforms_logs: already done
+0642.087 () Search and replacing table: wp_wpforms_payment_meta: already done
+0642.088 () Search and replacing table: wp_wpforms_payments: already done
+0642.089 () Search and replacing table: wp_wpforms_tasks_meta: already done
+0642.090 () Search and replacing table: wp_wpmlautoresponderemails: already done
+0642.091 () Search and replacing table: wp_wpmlautoresponders: already done
+0642.093 () Search and replacing table: wp_wpmlautorespondersforms: already done
+0642.094 () Search and replacing table: wp_wpmlautoresponderslists: already done
+0642.095 () Search and replacing table: wp_wpmlbounces: already done
+0642.096 () Search and replacing table: wp_wpmlclicks: already done
+0642.097 () Search and replacing table: wp_wpmlcontents: already done
+0642.100 () Search and replacing table: wp_wpmlcountries: already done
+0642.102 () Search and replacing table: wp_wpmlemails: already done
+0642.103 () Search and replacing table: wp_wpmlfields: already done
+0642.104 () Search and replacing table: wp_wpmlfieldsforms: already done
+0642.105 () Search and replacing table: wp_wpmlfieldslists: already done
+0642.106 () Search and replacing table: wp_wpmlforms: already done
+0642.107 () Search and replacing table: wp_wpmlgroups: already done
+0642.109 () Search and replacing table: wp_wpmlhistoriesattachments: already done
+0642.110 () Search and replacing table: wp_wpmlhistorieslists: already done
+0642.111 () Search and replacing table: wp_wpmlhistory: already done
+0642.112 () Search and replacing table: wp_wpmllatestposts: already done
+0642.113 () Search and replacing table: wp_wpmllatestpostssubscriptions: already done
+0642.117 () Search and replacing table: wp_wpmllinks: already done
+0642.118 () Search and replacing table: wp_wpmlmailinglists: already done
+0642.120 () Search and replacing table: wp_wpmloptions: already done
+0642.121 () Search and replacing table: wp_wpmlorders: already done
+0642.122 () Search and replacing table: wp_wpmlposts: already done
+0642.123 () Search and replacing table: wp_wpmlsubscribermetas: already done
+0642.125 () Search and replacing table: wp_wpmlsubscribers: already done
+0642.126 () Search and replacing table: wp_wpmlsubscriberslists: already done
+0642.127 () Search and replacing table: wp_wpmlsubscribersoptions: already done
+0642.128 () Search and replacing table: wp_wpmltemplates: already done
+0642.129 () Search and replacing table: wp_wpmlthemes: already done
+0642.131 () Search and replacing table: wp_wpmlunsubscribes: already done
+0642.204 () Entity: plugins
+0642.204 () restore_backup(backup_file=backup_2024-07-29-1125_Travel_Cars_New_Zealand_4b8e16cd9948-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:44:"C:\laragon\www\travel-car/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0642.212 () Unpacking backup... (backup_2024-07-29-1125_Travel_Cars_New_Zealand_4b8e16cd9948-plugins.zip, 94.6 MB)
+0642.224 () Unzipping backup_2024-07-29-1125_Travel_Cars_New_Zealand_4b8e16cd9948-plugins.zip to C:/laragon/www/travel-car/wp-content/upgrade/da585592/ using UpdraftPlus_ZipArchive, starting index 0
+0651.917 () Unzip progress: 3572 out of 22195 files (9.6 KB, plugins/vehica-updater/views/updater.php)
+0663.992 () Unzip progress: 4573 out of 22195 files (23.4 MB, plugins/vehica-updater/assets/js/build.min.js)
+0679.939 () Unzip progress: 5205 out of 22195 files (25.8 MB, plugins/updraftplus/vendor/psr/log/Psr/Log/LoggerAwareInterface.php)
+0695.904 () Unzip progress: 5852 out of 22195 files (40.2 MB, plugins/vehica-core/vendor/pimple/pimple/src/Pimple/Tests/Fixtures/PimpleServiceProvider.php)
+0712.500 () Unzip progress: 6210 out of 22195 files (51.3 MB, plugins/vehica-core/views/admin/user_panel.php)
+0728.480 () Unzip progress: 6742 out of 22195 files (62.6 MB, plugins/newsletter/vendor/tinymce/plugins/searchreplace/plugin.min.js)
+0744.666 () Unzip progress: 6877 out of 22195 files (66.6 MB, plugins/newsletter/statistics/view.php)
+0760.125 () Unzip progress: 7145 out of 22195 files (70.2 MB, plugins/vehica-core/app/Widgets/General/PanelGeneralWidget.php)
+0775.928 () Unzip progress: 7473 out of 22195 files (73.5 MB, plugins/vehica-core/vendor/stripe/stripe-php/init.php)
+0791.923 () Unzip progress: 7746 out of 22195 files (85.6 MB, plugins/elementor-pro/assets/css/widget-notes-rtl.min.css)
+0809.146 () Unzip progress: 8151 out of 22195 files (95 MB, plugins/newsletter/subscription/options.php)
+0824.970 () Unzip progress: 8548 out of 22195 files (100.9 MB, plugins/seo-by-rank-math/includes/modules/instant-indexing/views/options.php)
+0841.596 () Unzip progress: 8781 out of 22195 files (103.2 MB, plugins/elementor-pro/modules/popup/assets/images/timing/sources.svg)
+0856.935 () Unzip progress: 8927 out of 22195 files (104 MB, plugins/elementor-pro/modules/dynamic-tags/tags/archive-meta.php)
+0873.066 () Unzip progress: 9229 out of 22195 files (106.2 MB, plugins/elementor-pro/modules/theme-builder/classes/locations-manager.php)
+0889.455 () Unzip progress: 9402 out of 22195 files (108.7 MB, plugins/smart-slider-3/Nextend/SmartSlider3/Renderable/Component/ComponentRow.php)
+0904.940 () Unzip progress: 9595 out of 22195 files (109.3 MB, plugins/smart-slider-3/Nextend/SmartSlider3/Application/Admin/Slider/ViewSliderSimpleEditAddSlide.php)
+0920.948 () Unzip progress: 9803 out of 22195 files (110 MB, plugins/smart-slider-3/Nextend/SmartSlider3/Generator/WordPress/Posts/Sources/PostsPostsByIDs.php)
+0937.195 () Unzip progress: 10212 out of 22195 files (115.1 MB, plugins/seo-by-rank-math/assets/vendor/diacritics/ru.php)
+0953.140 () Unzip progress: 10499 out of 22195 files (119.3 MB, plugins/elementor/includes/widgets/video.php)
+0969.097 () Unzip progress: 10748 out of 22195 files (120.9 MB, plugins/elementor/core/common/modules/finder/categories-manager.php)
+0984.891 () Unzip progress: 10987 out of 22195 files (126.8 MB, plugins/smart-slider-3/Public/SmartSlider3/Widget/Thumbnail/Basic/Assets/dist/w-thumbnail-horizontal.min.js)
+1000.961 () Unzip progress: 11324 out of 22195 files (127.8 MB, plugins/smart-slider-3/Nextend/Framework/Notification/Notification.php)
+1018.150 () Unzip progress: 11708 out of 22195 files (132.9 MB, plugins/elementor/modules/link-in-bio/classes/render/render-base.php)
+1033.939 () Unzip progress: 12214 out of 22195 files (163 MB, plugins/elementor/assets/css/modules/notes/editor.css)
+1050.176 () Unzip progress: 12643 out of 22195 files (176.3 MB, plugins/google-site-kit/third-party/monolog/monolog/src/Monolog/Handler/ZendMonitorHandler.php)
+1066.053 () Unzip progress: 13165 out of 22195 files (178.6 MB, plugins/google-site-kit/third-party/google/apiclient-services/src/GoogleAnalyticsAdmin/GoogleAnalyticsAdminV1alphaDataStreamAndroidAppStreamData.php)
+1082.354 () Unzip progress: 13386 out of 22195 files (179.2 MB, plugins/google-site-kit/third-party/google/apiclient-services/src/TagManager/PublishContainerVersionResponse.php)
+1097.881 () Unzip progress: 13598 out of 22195 files (181.8 MB, plugins/woocommerce/includes/wc-order-functions.php)
+1113.908 () Unzip progress: 13896 out of 22195 files (184.3 MB, plugins/woo-cart-abandonment-recovery/admin/assets/js/admin-email-templates.js)
+1130.022 () Unzip progress: 14222 out of 22195 files (189.3 MB, plugins/powerpack-lite-for-elementor/assets/lib/ppicons/css/powerpack-icons.css)
+1145.890 () Unzip progress: 14563 out of 22195 files (198.3 MB, plugins/woocommerce/assets/client/blocks/product-filter-price/block.json)
+1161.943 () Unzip progress: 14807 out of 22195 files (200 MB, plugins/woocommerce/assets/client/blocks/product-new-style.asset.php)
+1177.880 () Unzip progress: 15386 out of 22195 files (215.2 MB, plugins/woocommerce/includes/class-wc-customer-download.php)
+1193.986 () Unzip progress: 15815 out of 22195 files (223.2 MB, plugins/woocommerce/assets/client/admin/product-editor/blocks/generic/number/edit.js)
+1209.877 () Unzip progress: 16044 out of 22195 files (223.4 MB, plugins/woocommerce/assets/client/admin/customer-effort-score/index.asset.php)
+1225.905 () Unzip progress: 16198 out of 22195 files (224.3 MB, plugins/woocommerce/assets/client/blocks/stock-filter-wrapper.css)
+1242.006 () Unzip progress: 16759 out of 22195 files (227.8 MB, plugins/woocommerce/src/Blocks/BlockTypes/Breadcrumbs.php)
+1257.951 () Unzip progress: 17251 out of 22195 files (231.5 MB, plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php)
+1273.878 () Unzip progress: 17527 out of 22195 files (234.1 MB, plugins/woocommerce-payments/includes/class-experimental-abtest.php)
+1290.062 () Unzip progress: 17856 out of 22195 files (236.5 MB, plugins/contact-form-7/includes/config-validator/validator.php)
+1305.980 () Unzip progress: 18165 out of 22195 files (238.1 MB, plugins/woocommerce/src/Internal/Admin/Notes/WooCommercePayments.php)
+1321.950 () Unzip progress: 18384 out of 22195 files (239.4 MB, plugins/woocommerce/src/Admin/RemoteSpecs/RuleProcessors/RuleProcessorInterface.php)
+1338.052 () Unzip progress: 18618 out of 22195 files (244.2 MB, plugins/woocommerce-payments/vendor/woocommerce/subscriptions-core/templates/myaccount/related-orders.php)
+1354.005 () Unzip progress: 19115 out of 22195 files (250.2 MB, plugins/woocommerce-payments/vendor/automattic/jetpack-sync/src/class-default-filter-settings.php)
+1369.972 () Unzip progress: 19439 out of 22195 files (252.5 MB, plugins/official-facebook-pixel/vendor/facebook/php-business-sdk/src/FacebookAds/Object/AdRuleHistory.php)
+1386.979 () Unzip progress: 19790 out of 22195 files (253.7 MB, plugins/official-facebook-pixel/vendor/facebook/php-business-sdk/src/FacebookAds/Object/Values/AdCreativeCallToActionTypeValues.php)
+1402.953 () Unzip progress: 20212 out of 22195 files (254.9 MB, plugins/official-facebook-pixel/vendor/facebook/php-business-sdk/examples/AdAccountAdSetsPostReach.php)
+1418.914 () Unzip progress: 20547 out of 22195 files (256.6 MB, plugins/woocommerce-paypal-payments/lib/packages/Dhii/Container/DeprefixingContainer.php)
+1434.890 () Unzip progress: 20765 out of 22195 files (261.5 MB, plugins/official-facebook-pixel/vendor/facebook/php-business-sdk/src/FacebookAds/Http/ResponseInterface.php)
+1451.012 () Unzip progress: 20830 out of 22195 files (261.8 MB, plugins/official-facebook-pixel/vendor/facebook/php-business-sdk/src/FacebookAds/Object/TargetingGeoLocation.php)
+1466.928 () Unzip progress: 20920 out of 22195 files (262 MB, plugins/official-facebook-pixel/vendor/facebook/php-business-sdk/src/FacebookAds/Object/CustomAudiencesharedAccountInfo.php)
+1483.006 () Unzip progress: 21012 out of 22195 files (262.4 MB, plugins/official-facebook-pixel/vendor/facebook/php-business-sdk/src/FacebookAds/Object/Fields/IosAppLinkFields.php)
+1499.068 () Unzip progress: 21066 out of 22195 files (262.5 MB, plugins/official-facebook-pixel/vendor/facebook/php-business-sdk/src/FacebookAds/Object/Fields/LeadgenFormFields.php)
+1515.880 () Unzip progress: 21130 out of 22195 files (262.7 MB, plugins/official-facebook-pixel/vendor/facebook/php-business-sdk/src/FacebookAds/Object/Fields/PageFields.php)
+1771.733 () Unzip progress: 21273 out of 22195 files (263 MB, plugins/official-facebook-pixel/vendor/facebook/php-business-sdk/src/FacebookAds/Object/Fields/DeliveryWindowFields.php)
+1785.671 () Unzip progress: 22195 out of 22195 files (276.8 MB, plugins/woocommerce-paypal-payments/vendor/dhii/module-interface/src/Exception/ModuleExceptionInterface.php)
+1785.712 () Moving old data: filesystem method / updraft_dir is potentially possible
+1785.714 () Moving old data: can potentially use wp_filesystem method / -old
+1785.714 () Moving old data out of the way...
+1790.294 () Top-level entities being moved: akismet, hello.php, index.php, PaxHeaders, updraftplus
+1790.320 () Moving unpacked backup into place...
+1844.537 () Top-level entities being moved: .htaccess, .htaccess.cpmh3129, blog-category_old, cart-abandonment, classic-editor, contact-form-7, custom-new-user-email-template, easy-table-of-contents, elementor, elementor-pro, google-site-kit, index.php, last-modified-timestamp, maintenance, media-cleaner, newsletter, newsletters-lite, official-facebook-pixel, powerpack-lite-for-elementor, redirection, seo-by-rank-math, smart-slider-3, updraftplus, vehica-core, vehica-updater, woo-cart-abandonment-recovery, woocommerce, woocommerce-gateway-stripe, woocommerce-legacy-rest-api, woocommerce-payments, woocommerce-paypal-payments, wp-file-manager, wp-super-cache
+1845.134 () Cleaning up rubbish...
+1845.138 () [W3 Super Cache] Disabled this plugin: %s: re-activate it manually when you are ready.
+1845.256 () Entity: themes
+1845.256 () restore_backup(backup_file=backup_2024-07-29-1125_Travel_Cars_New_Zealand_4b8e16cd9948-themes.zip, type=themes, info=a:3:{s:4:"path";s:43:"C:\laragon\www\travel-car/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=1)
+1845.266 () Unpacking backup... (backup_2024-07-29-1125_Travel_Cars_New_Zealand_4b8e16cd9948-themes.zip, 44 MB)
+1845.270 () Unzipping backup_2024-07-29-1125_Travel_Cars_New_Zealand_4b8e16cd9948-themes.zip to C:/laragon/www/travel-car/wp-content/upgrade/c36b92cc/ using UpdraftPlus_ZipArchive, starting index 0
+1863.515 () Unzip progress: 904 out of 2019 files (9.9 MB, themes/motors/assets/images/lightGallery/vimeo-play.png)
+1882.422 () Unzip progress: 968 out of 2019 files (16.9 MB, themes/motors/assets/css/dist/app-listing_five_elementor.css)
+1898.135 () Unzip progress: 1222 out of 2019 files (31 MB, themes/motors/partials/rental/common/order-info-accept.php)
+1914.603 () Unzip progress: 1431 out of 2019 files (50.6 MB, themes/vehica/templates/car/single/add_to_compare.php)
+1932.584 () Unzip progress: 1622 out of 2019 files (54.6 MB, themes/vehica/assets/scss/partials/elementor-custom-css/_404.scss)
+1955.988 () Unzip progress: 1690 out of 2019 files (54.6 MB, themes/vehica/assets/scss/partials/map/_listing-info-window.scss)
+1973.398 () Unzip progress: 1731 out of 2019 files (54.7 MB, themes/vehica/assets/scss/partials/wordpress/_widget-rss.scss)
+1989.519 () Unzip progress: 1812 out of 2019 files (54.9 MB, themes/vehica/assets/scss/partials/user/_user-description.scss)
+2005.338 () Unzip progress: 1868 out of 2019 files (67.5 MB, themes/motors/admin/classes/stm-theme-info.php)
+2024.447 () Unzip progress: 1924 out of 2019 files (67.8 MB, themes/motors/admin/templates/dashboard/support_community.php)
+2042.648 () Unzip progress: 2005 out of 2019 files (69.3 MB, themes/motors/inc/rental/PriceForQuantityDays.php)
+2046.124 () Unzip progress: 2019 out of 2019 files (69.5 MB, themes/motors/woocommerce/order/form-tracking.php)
+2046.133 () Moving old data: filesystem method / updraft_dir is potentially possible
+2046.135 () Moving old data: can potentially use wp_filesystem method / -old
+2046.135 () Moving old data out of the way...
+2049.146 () Top-level entities being moved: index.php, PaxHeaders, twentytwentyfive, twentytwentyfour, twentytwentythree
+2049.242 () Moving unpacked backup into place...
+2057.840 () Top-level entities being moved: error_log, index.php, motors, motors-child, motors.zip, vehica, vehica-child, vehica.zip
+2057.985 () Cleaning up rubbish...
+2127.426 () Restore successful!
+2127.427 () Restore successful

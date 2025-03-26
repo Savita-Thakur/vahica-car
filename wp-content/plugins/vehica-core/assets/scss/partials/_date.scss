@@ -1,0 +1,22 @@
+.mx-panel-time {
+  > ul {
+    width: 50% !important;
+  }
+  > ul.mx-time-list:last-child {
+    display: none!important;
+  }
+}
+
+.mx-calendar-header {
+  .mx-time-header {
+    font-size: 0 !important;
+  }
+  .mx-time-header:after {
+    font-size: 14px !important;
+    content: '\f017' !important;
+    font-family: "Font Awesome 5 Free";
+    font-weight: normal;
+    position: relative;
+    left: -1px;
+  }
+}
